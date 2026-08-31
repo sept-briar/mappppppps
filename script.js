@@ -18,19 +18,19 @@
 const places = [
 
     {
-        name: "1-A",
+        name: "高1A",
 
         category: "教室",
 
         popup: true,
 
         description:
-            "1-A教室です。\n" +
+            "高1A教室です。\n" +
             "ここに教室についての説明を書きます。",
 
-        location: "2階",
+        location: "3階",
 
-        time: "8:30〜17:00",
+        time: "9:00〜15:00",
 
         left: 10,
         top: 15,
