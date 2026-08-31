@@ -63,17 +63,16 @@ const places = [
 
 
     {
-        name: "図書室",
+        name: "高1C",
 
         category: "施設",
 
         popup: true,
 
         description:
-            "図書室です。\n\n" +
-            "本を読んだり、調べ学習をしたりできます。",
-
-        location: "2階",
+            "高1C教室です。\n" +
+            "ここに教室についての説明を書きます。",
+        location: "3階",
 
         time: "8:30〜17:00",
 
