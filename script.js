@@ -30,7 +30,7 @@ const places = [
 
         location: "3階",
 
-        time: "9:00〜15:00",
+        time: "9:00〜16:30",
 
         left: 10,
         top: 15,
@@ -40,15 +40,18 @@ const places = [
 
 
     {
-        name: "1-B",
+        name: "高1B",
 
         category: "教室",
 
         popup: false,
 
-        description: "",
+        description: 
+            "高1B教室です。\n" +
+            "ここに教室についての説明を書きます。",
 
-        location: "",
+
+        location: "3階",
 
         time: "",
 
@@ -74,7 +77,7 @@ const places = [
 
         time: "8:30〜17:00",
 
-        left: 55,
+        left: 25,
         top: 20,
         width: 18,
         height: 10
