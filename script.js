@@ -20,7 +20,7 @@ const places = [
     {
         name: "高1A",
 
-        category: "教室",
+        category: "クラス企画",
 
         popup: true,
 
@@ -42,9 +42,9 @@ const places = [
     {
         name: "高1B",
 
-        category: "教室",
+        category: "クラス企画",
 
-        popup: false,
+        popup: true,
 
         description: 
             "高1B教室です。\n" +
@@ -53,7 +53,7 @@ const places = [
 
         location: "3階",
 
-        time: "",
+        time: "9:00〜16:30",
 
         left: 25,
         top: 15,
@@ -65,7 +65,7 @@ const places = [
     {
         name: "高1C",
 
-        category: "施設",
+        category: "クラス企画",
 
         popup: true,
 
@@ -74,7 +74,7 @@ const places = [
             "ここに教室についての説明を書きます。",
         location: "3階",
 
-        time: "8:30〜17:00",
+        time: "9:00〜16:30",
 
         left: 25,
         top: 20,
