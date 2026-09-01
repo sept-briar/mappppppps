@@ -105,6 +105,90 @@ const places = [
 
 
     {
+        name: "中1A",
+
+        category: "クラス企画",
+
+        popup: true,
+
+        description:
+            "中1A教室です。\n" +
+            "ここに教室についての説明を書きます。",
+        location: "3階",
+
+        time: "9:00〜16:30",
+
+        left: 25,
+        top: 20,
+        width: 18,
+        height: 10
+    },
+
+
+    {
+        name: "中1B",
+
+        category: "クラス企画",
+
+        popup: true,
+
+        description:
+            "中1B教室です。\n" +
+            "ここに教室についての説明を書きます。",
+        location: "3階",
+
+        time: "9:00〜16:30",
+
+        left: 25,
+        top: 20,
+        width: 18,
+        height: 10
+    },
+
+
+    {
+        name: "高1D",
+
+        category: "クラス企画",
+
+        popup: true,
+
+        description:
+            "高1D教室です。\n" +
+            "ここに教室についての説明を書きます。",
+        location: "3階",
+
+        time: "9:00〜16:30",
+
+        left: 25,
+        top: 20,
+        width: 18,
+        height: 10
+    },
+
+
+    {
+        name: "高1D",
+
+        category: "クラス企画",
+
+        popup: true,
+
+        description:
+            "高1D教室です。\n" +
+            "ここに教室についての説明を書きます。",
+        location: "3階",
+
+        time: "9:00〜16:30",
+
+        left: 25,
+        top: 20,
+        width: 18,
+        height: 10
+    },
+
+
+    {
         name: "体育館",
 
         category: "体育施設",
