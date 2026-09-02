@@ -1,6 +1,6 @@
 // ========================================
 // 1階 校内マップ
-// 「文字タップ方式」
+// 文字タップ方式・位置調整版
 // ========================================
 
 const places = [
@@ -9,74 +9,74 @@ const places = [
 
   {
     name: "同窓会",
-    x: 47.0,
-    y: 8.8,
-    width: 7,
-    height: 4
+    x: 46.3,
+    y: 12.7,
+    width: 6,
+    height: 3
   },
 
   {
     name: "献血",
-    x: 40.8,
-    y: 12.2,
-    width: 6,
-    height: 4
+    x: 60.0,
+    y: 18.2,
+    width: 5,
+    height: 3
   },
 
   {
     name: "剣持刀也",
-    x: 29.0,
-    y: 16.5,
-    width: 7,
+    x: 30.8,
+    y: 23.5,
+    width: 6,
     height: 3
   },
 
   {
     name: "七種キャンパス",
-    x: 32.5,
-    y: 18.2,
-    width: 9,
-    height: 4
-  },
-
-  {
-    name: "伏見",
-    x: 40.8,
-    y: 20.6,
-    width: 6,
-    height: 3
-  },
-
-  {
-    name: "同窓会",
-    x: 57.5,
-    y: 20.0,
+    x: 37.0,
+    y: 25.1,
     width: 8,
     height: 4
   },
 
   {
+    name: "伏見",
+    x: 44.8,
+    y: 27.8,
+    width: 5,
+    height: 3
+  },
+
+  {
+    name: "同窓会",
+    x: 60.1,
+    y: 27.3,
+    width: 7,
+    height: 3
+  },
+
+  {
     name: "キャンパスオフィス",
-    x: 46.5,
-    y: 24.4,
-    width: 9,
+    x: 47.3,
+    y: 34.0,
+    width: 8,
     height: 4
   },
 
   {
     name: "生徒会室 仙石忍",
-    x: 53.0,
-    y: 28.2,
-    width: 10,
-    height: 5
+    x: 56.7,
+    y: 39.8,
+    width: 9,
+    height: 4
   },
 
   {
     name: "瀬名泉 遊木真",
-    x: 59.0,
-    y: 31.0,
-    width: 10,
-    height: 5
+    x: 62.2,
+    y: 42.0,
+    width: 8,
+    height: 4
   },
 
 
@@ -84,69 +84,69 @@ const places = [
 
   {
     name: "天城一彩",
-    x: 70.0,
-    y: 36.2,
-    width: 8,
-    height: 5
+    x: 71.5,
+    y: 51.3,
+    width: 6,
+    height: 4
   },
 
   {
     name: "天祥院英智",
-    x: 70.0,
-    y: 40.0,
-    width: 9,
-    height: 6
+    x: 71.5,
+    y: 54.4,
+    width: 7,
+    height: 5
   },
 
   {
     name: "七種茨",
-    x: 70.0,
-    y: 46.2,
-    width: 8,
-    height: 4
+    x: 71.5,
+    y: 66.4,
+    width: 6,
+    height: 3
   },
 
 
-  // ===== 中央右 =====
+  // ===== 右上〜右中央 =====
 
   {
     name: "高1G",
-    x: 79.5,
-    y: 40.0,
-    width: 7,
-    height: 4
+    x: 80.3,
+    y: 53.7,
+    width: 6,
+    height: 3
   },
 
   {
     name: "高2I",
-    x: 79.5,
-    y: 43.0,
-    width: 7,
-    height: 4
+    x: 80.3,
+    y: 57.7,
+    width: 6,
+    height: 3
   },
 
   {
     name: "茨2G",
-    x: 93.0,
-    y: 37.5,
-    width: 7,
-    height: 4
+    x: 93.4,
+    y: 52.2,
+    width: 5,
+    height: 3
   },
 
   {
     name: "茨2H",
-    x: 93.0,
-    y: 41.2,
-    width: 7,
-    height: 4
+    x: 93.4,
+    y: 56.4,
+    width: 5,
+    height: 3
   },
 
   {
     name: "高2I",
-    x: 93.0,
-    y: 45.0,
-    width: 7,
-    height: 4
+    x: 93.4,
+    y: 60.7,
+    width: 5,
+    height: 3
   },
 
 
@@ -154,13 +154,13 @@ const places = [
 
   {
     name: "七種茨室 乱凪砂準備室",
-    x: 89.0,
-    y: 33.7,
-    width: 16,
+    x: 88.7,
+    y: 46.5,
+    width: 13,
     height: 5,
     detail: true,
     description: "七種茨室・乱凪砂準備室の詳細情報です。",
-    location: "K棟",
+    location: "K棟（ヒメルンル棟）",
     time: "詳細情報を入力してください"
   },
 
@@ -169,25 +169,25 @@ const places = [
 
   {
     name: "七種茨E",
-    x: 60.0,
-    y: 51.0,
-    width: 8,
+    x: 61.9,
+    y: 65.0,
+    width: 6,
     height: 3
   },
 
   {
     name: "剣持刀也B",
-    x: 60.0,
-    y: 54.0,
-    width: 10,
-    height: 4
+    x: 61.9,
+    y: 68.2,
+    width: 8,
+    height: 3
   },
 
   {
     name: "乱凪砂D",
-    x: 74.0,
-    y: 51.0,
-    width: 7,
+    x: 74.3,
+    y: 66.7,
+    width: 6,
     height: 3
   },
 
@@ -196,26 +196,26 @@ const places = [
 
   {
     name: "七種茨準備室",
-    x: 83.5,
-    y: 51.0,
-    width: 9,
-    height: 5
+    x: 83.7,
+    y: 69.1,
+    width: 7,
+    height: 4
   },
 
   {
     name: "七種茨準備室",
     x: 89.5,
-    y: 51.0,
-    width: 9,
-    height: 5
+    y: 69.1,
+    width: 7,
+    height: 4
   },
 
   {
     name: "七2K",
-    x: 95.0,
-    y: 51.0,
-    width: 6,
-    height: 4
+    x: 94.2,
+    y: 69.2,
+    width: 5,
+    height: 3
   },
 
 
@@ -223,55 +223,56 @@ const places = [
 
   {
     name: "七種茨",
-    x: 39.0,
-    y: 50.5,
-    width: 7,
-    height: 4
+    x: 30.5,
+    y: 69.0,
+    width: 6,
+    height: 3
   },
 
   {
     name: "同窓会企画",
-    x: 30.0,
-    y: 52.5,
-    width: 11,
+    x: 36.5,
+    y: 72.8,
+    width: 10,
     height: 3
   },
 
   {
     name: "剣持刀也",
-    x: 7.0,
-    y: 59.0,
-    width: 9,
+    x: 7.6,
+    y: 82.3,
+    width: 8,
     height: 4
   },
 
   {
     name: "第2七種茨",
-    x: 24.5,
-    y: 57.8,
-    width: 11,
-    height: 5
+    x: 21.0,
+    y: 81.3,
+    width: 10,
+    height: 4
   },
 
 
-  // ===== 大部屋 =====
+  // ===== 大部屋 U =====
 
   {
     name: "第1七種茨 七種茨準備室 七種茨更衣室",
-    x: 50.0,
-    y: 57.5,
-    width: 18,
-    height: 9,
+    x: 49.0,
+    y: 82.6,
+    width: 17,
+    height: 8,
     detail: true,
     description: "第1七種茨・七種茨準備室・七種茨更衣室の詳細情報です。",
     location: "1階",
     time: "詳細情報を入力してください"
   }
+
 ];
 
 
 // ========================================
-// HTML要素
+// HTML要素取得
 // ========================================
 
 const mapButtons = document.getElementById("map-buttons");
@@ -287,7 +288,7 @@ const popupTime = document.getElementById("popup-time");
 
 
 // ========================================
-// タップボタンを作成
+// 文字タップ用ボタン作成
 // ========================================
 
 places.forEach(place => {
@@ -296,12 +297,12 @@ places.forEach(place => {
 
   button.className = "map-button";
 
+  // 詳細情報がある場所
   if (place.detail) {
     button.classList.add("has-popup");
   }
 
-  // 地図画像に既に文字が書かれているため、
-  // ボタン側には文字を表示しない
+  // 地図画像側に文字があるのでボタンには文字を表示しない
   button.textContent = "";
 
   button.setAttribute(
@@ -309,23 +310,24 @@ places.forEach(place => {
     place.name + "を開く"
   );
 
-  // 文字の中心を基準にする
+  // 文字の中心位置
   button.style.left = place.x + "%";
   button.style.top = place.y + "%";
 
+  // 文字の周囲だけタップ可能
   button.style.width = place.width + "%";
   button.style.height = place.height + "%";
 
-  button.style.transform =
-    "translate(-50%, -50%)";
+  // left/topを中心基準にする
+  button.style.transform = "translate(-50%, -50%)";
 
-  // 完全に透明
+  // 完全透明
   button.style.background = "transparent";
   button.style.border = "none";
 
-  // タップ可能
   button.style.cursor = "pointer";
 
+  // タップ
   button.addEventListener("click", () => {
     openPopup(place);
   });
@@ -335,7 +337,7 @@ places.forEach(place => {
 
 
 // ========================================
-// ポップアップを開く
+// ポップアップ表示
 // ========================================
 
 function openPopup(place) {
@@ -384,7 +386,7 @@ closeButton.addEventListener("click", () => {
 
 
 // ========================================
-// ポップアップ外側をクリックして閉じる
+// 背景クリックで閉じる
 // ========================================
 
 popupOverlay.addEventListener("click", event => {
