@@ -9,10 +9,10 @@ const places = [
   },
   {
     name: "B",
-    left: 28,
-    top: 24,
-    width: 11,
-    height: 8
+    left: 19,
+    top: 16,
+    width: 9,
+    height: 7
   },
   {
     name: "C",
@@ -144,10 +144,10 @@ const places = [
 
   {
     name: "R",
-    left: 58,
-    top: 68,
-    width: 7,
-    height: 6
+    left: 38,
+    top: 48,
+    width: 9,
+    height: 5
   },
   {
     name: "S",
