@@ -1,85 +1,68 @@
+// ==============================
+// 1階 校内マップ
+// A〜W「文字タップ方式」
+// ==============================
+
 const places = [
-  // 上側
+  // 上部
   {
     name: "A",
-    left: 23,
-    top: 17,
-    width: 13,
-    height: 11
+    x: 29.7,
+    y: 23.7
   },
   {
     name: "B",
-    left: 27.5,
-    top: 24,
-    width: 6.5,
-    height: 5.5
+    x: 32.9,
+    y: 26.5
   },
   {
     name: "C",
-    left: 33,
-    top: 20,
-    width: 18,
-    height: 14
+    x: 40.6,
+    y: 29.1
   },
   {
     name: "D",
-    left: 42,
-    top: 32,
-    width: 11,
-    height: 9
+    x: 45.6,
+    y: 34.5
   },
   {
     name: "E",
-    left: 48,
-    top: 38,
-    width: 10,
-    height: 9
+    x: 51.8,
+    y: 38.9
   },
   {
     name: "F",
-    left: 54,
-    top: 43,
-    width: 11,
-    height: 9
+    x: 57.8,
+    y: 43.0
   },
 
   // 中央
   {
     name: "G",
-    left: 67,
-    top: 48,
-    width: 7,
-    height: 6
+    x: 69.9,
+    y: 51.7
   },
   {
     name: "H",
-    left: 67,
-    top: 54,
-    width: 7,
-    height: 6
+    x: 69.9,
+    y: 55.8
   },
   {
     name: "I",
-    left: 67,
-    top: 62,
-    width: 7,
-    height: 7
+    x: 69.9,
+    y: 65.7
   },
 
-  // 右上〜右中央
+  // 右側
   {
     name: "J",
-    left: 79,
-    top: 44,
-    width: 20,
-    height: 8
+    x: 89.2,
+    y: 47.3
   },
   {
     name: "K",
-    left: 90,
-    top: 52,
-    width: 7,
-    height: 6,
+    x: 93.8,
+    y: 53.0,
     detail: true,
     description: "Kの詳細情報です。",
     location: "1階",
@@ -87,10 +70,8 @@ const places = [
   },
   {
     name: "L",
-    left: 90,
-    top: 58,
-    width: 7,
-    height: 6,
+    x: 93.8,
+    y: 57.3,
     detail: true,
     description: "Lの詳細情報です。",
     location: "1階",
@@ -98,79 +79,58 @@ const places = [
   },
   {
     name: "M",
-    left: 90,
-    top: 64,
-    width: 7,
-    height: 7,
+    x: 93.8,
+    y: 61.5,
     detail: true,
     description: "Mの詳細情報です。",
     location: "1階",
     time: "詳細情報を入力してください"
   },
 
-  // 下中央〜右下
+  // 下部右側
   {
     name: "N",
-    left: 84,
-    top: 68,
-    width: 12,
-    height: 7,
-    detail: true,
-    description: "Nの詳細情報です。",
-    location: "1階",
-    time: "詳細情報を入力してください"
+    x: 94.7,
+    y: 70.8
   },
   {
     name: "O",
-    left: 79,
-    top: 68,
-    width: 7,
-    height: 7
+    x: 89.2,
+    y: 70.8
   },
   {
     name: "P",
-    left: 84,
-    top: 68,
-    width: 6,
-    height: 7
+    x: 82.9,
+    y: 70.8
   },
   {
     name: "Q",
-    left: 91,
-    top: 68,
-    width: 7,
-    height: 7
+    x: 74.3,
+    y: 69.8
   },
 
+  // 下部中央
   {
     name: "R",
-    left: 56.5,
-    top: 69.8,
-    width: 7.5,
-    height: 3.5
+    x: 60.5,
+    y: 70.1
   },
   {
     name: "S",
-    left: 44,
-    top: 68,
-    width: 20,
-    height: 6
+    x: 56.7,
+    y: 71.8
   },
   {
     name: "T",
-    left: 33,
-    top: 68,
-    width: 12,
-    height: 6
+    x: 39.1,
+    y: 71.5
   },
 
-  // 下側
+  // 下部
   {
     name: "U",
-    left: 34,
-    top: 74,
-    width: 31,
-    height: 17,
+    x: 51.5,
+    y: 81.9,
     detail: true,
     description: "Uの詳細情報です。",
     location: "1階",
@@ -178,19 +138,20 @@ const places = [
   },
   {
     name: "V",
-    left: 17,
-    top: 77,
-    width: 14,
-    height: 9
+    x: 24.2,
+    y: 81.5
   },
   {
     name: "W",
-    left: 1,
-    top: 80,
-    width: 14,
-    height: 6
+    x: 3.9,
+    y: 82.7
   }
 ];
+
+
+// ==============================
+// HTMLの要素を取得
+// ==============================
 
 const mapButtons = document.getElementById("map-buttons");
 const popupOverlay = document.getElementById("popup-overlay");
@@ -203,24 +164,50 @@ const popupLocation = document.getElementById("popup-location");
 const popupTime = document.getElementById("popup-time");
 
 
-// A〜Wのボタンを作る
+// ==============================
+// A〜Wの「文字タップ用ボタン」を作成
+// ==============================
+
 places.forEach(place => {
+
   const button = document.createElement("button");
 
+  // map-buttonクラスを使用
   button.className = "map-button";
 
-  // K・L・M・N・Uは詳細情報あり
+  // 詳細情報がある場所
   if (place.detail) {
     button.classList.add("has-popup");
   }
 
-  button.textContent = place.name;
+  // ボタン自体には文字を表示しない
+  // 地図画像に書いてあるA〜Wの文字をそのまま見せるため
+  button.textContent = "";
 
-  button.style.left = place.left + "%";
-  button.style.top = place.top + "%";
-  button.style.width = place.width + "%";
-  button.style.height = place.height + "%";
+  // アクセシビリティ用
+  button.setAttribute("aria-label", place.name + "を開く");
+  button.setAttribute("title", place.name);
 
+  // 文字の位置を中心として配置
+  button.style.left = place.x + "%";
+  button.style.top = place.y + "%";
+
+  // ★ここが重要★
+  // 部屋全体ではなく「文字の周囲」だけをタップ可能にする
+  button.style.width = "5%";
+  button.style.height = "4%";
+
+  // x,yを「左上」ではなく「中央」として扱う
+  button.style.transform = "translate(-50%, -50%)";
+
+  // 透明
+  button.style.background = "transparent";
+  button.style.border = "none";
+
+  // タップ可能
+  button.style.cursor = "pointer";
+
+  // クリック
   button.addEventListener("click", () => {
     openPopup(place);
   });
@@ -229,17 +216,29 @@ places.forEach(place => {
 });
 
 
+// ==============================
 // ポップアップを開く
+// ==============================
+
 function openPopup(place) {
-  popupCategory.textContent = place.detail ? "施設情報" : "校内マップ";
+
+  popupCategory.textContent = place.detail
+    ? "施設情報"
+    : "校内マップ";
+
   popupTitle.textContent = place.name;
 
   if (place.detail) {
+
     popupDescription.textContent = place.description;
     popupLocation.textContent = place.location;
     popupTime.textContent = place.time;
+
   } else {
-    popupDescription.textContent = place.name + " の場所です。";
+
+    popupDescription.textContent =
+      place.name + " の場所です。";
+
     popupLocation.textContent = "1階";
     popupTime.textContent = "―";
   }
@@ -248,23 +247,36 @@ function openPopup(place) {
 }
 
 
+// ==============================
 // ×ボタンで閉じる
+// ==============================
+
 closeButton.addEventListener("click", () => {
   popupOverlay.classList.remove("active");
 });
 
 
+// ==============================
 // ポップアップの外側をクリックして閉じる
+// ==============================
+
 popupOverlay.addEventListener("click", event => {
+
   if (event.target === popupOverlay) {
     popupOverlay.classList.remove("active");
   }
+
 });
 
 
-// Escキーでも閉じる
+// ==============================
+// Escキーで閉じる
+// ==============================
+
 document.addEventListener("keydown", event => {
+
   if (event.key === "Escape") {
     popupOverlay.classList.remove("active");
   }
+
 });
