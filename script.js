@@ -147,14 +147,14 @@ const places = [
 
 
     {
-        name: "高1D",
+        name: "中1C",
 
         category: "クラス企画",
 
         popup: true,
 
         description:
-            "高1D教室です。\n" +
+            "中1C教室です。\n" +
             "ここに教室についての説明を書きます。",
         location: "3階",
 
