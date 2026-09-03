@@ -24,7 +24,7 @@ const places = [
   },
 
   {
-    name: "剣持刀也",
+    name: "校務員室",
     x: 30.8,
     y: 23.5,
     width: 6,
@@ -32,7 +32,7 @@ const places = [
   },
 
   {
-    name: "七種キャンパス",
+    name: "清教キャンパス",
     x: 37.0,
     y: 25.1,
     width: 8,
@@ -40,7 +40,7 @@ const places = [
   },
 
   {
-    name: "伏見",
+    name: "食堂",
     x: 44.8,
     y: 27.8,
     width: 5,
@@ -64,7 +64,7 @@ const places = [
   },
 
   {
-    name: "生徒会室 仙石忍",
+    name: "国際交流 委員会",
     x: 56.7,
     y: 39.8,
     width: 9,
@@ -72,7 +72,7 @@ const places = [
   },
 
   {
-    name: "瀬名泉 遊木真",
+    name: "生活部 特活部",
     x: 62.2,
     y: 42.0,
     width: 8,
@@ -83,7 +83,7 @@ const places = [
   // ===== 中央 =====
 
   {
-    name: "天城一彩",
+    name: "進路部室",
     x: 71.5,
     y: 51.3,
     width: 6,
@@ -91,7 +91,7 @@ const places = [
   },
 
   {
-    name: "天祥院英智",
+    name: "進路相談室",
     x: 71.5,
     y: 54.4,
     width: 7,
@@ -99,7 +99,7 @@ const places = [
   },
 
   {
-    name: "七種茨",
+    name: "事務室",
     x: 71.5,
     y: 66.4,
     width: 6,
@@ -126,7 +126,7 @@ const places = [
   },
 
   {
-    name: "茨2G",
+    name: "高2G",
     x: 93.4,
     y: 52.2,
     width: 5,
@@ -134,7 +134,7 @@ const places = [
   },
 
   {
-    name: "茨2H",
+    name: "高2H",
     x: 93.4,
     y: 56.4,
     width: 5,
@@ -153,14 +153,14 @@ const places = [
   // ===== K棟 =====
 
   {
-    name: "七種茨室 乱凪砂準備室",
+    name: "家庭科室 家庭科準備室",
     x: 88.7,
     y: 46.5,
     width: 13,
     height: 5,
     detail: true,
-    description: "七種茨室・乱凪砂準備室の詳細情報です。",
-    location: "K棟（ヒメルンル棟）",
+    description: "家庭科室・家庭科準備室の詳細情報です。",
+    location: "K棟（サイエンス棟）",
     time: "詳細情報を入力してください"
   },
 
@@ -168,7 +168,7 @@ const places = [
   // ===== 中央下 =====
 
   {
-    name: "七種茨E",
+    name: "応接室E",
     x: 61.9,
     y: 65.0,
     width: 6,
@@ -176,7 +176,7 @@ const places = [
   },
 
   {
-    name: "剣持刀也B",
+    name: "小会議室B",
     x: 61.9,
     y: 68.2,
     width: 8,
@@ -184,7 +184,7 @@ const places = [
   },
 
   {
-    name: "乱凪砂D",
+    name: "応接室D",
     x: 74.3,
     y: 66.7,
     width: 6,
@@ -195,7 +195,7 @@ const places = [
   // ===== 右下 =====
 
   {
-    name: "七種茨準備室",
+    name: "英語科準備室",
     x: 83.7,
     y: 69.1,
     width: 7,
@@ -203,7 +203,7 @@ const places = [
   },
 
   {
-    name: "七種茨準備室",
+    name: "数学科準備室",
     x: 89.5,
     y: 69.1,
     width: 7,
@@ -211,7 +211,7 @@ const places = [
   },
 
   {
-    name: "七2K",
+    name: "高2K",
     x: 94.2,
     y: 69.2,
     width: 5,
@@ -222,7 +222,7 @@ const places = [
   // ===== 左下 =====
 
   {
-    name: "七種茨",
+    name: "保健室",
     x: 30.5,
     y: 69.0,
     width: 6,
@@ -238,7 +238,7 @@ const places = [
   },
 
   {
-    name: "剣持刀也",
+    name: "清教会館",
     x: 7.6,
     y: 82.3,
     width: 8,
@@ -246,7 +246,7 @@ const places = [
   },
 
   {
-    name: "第2七種茨",
+    name: "第2体育館",
     x: 21.0,
     y: 81.3,
     width: 10,
@@ -257,13 +257,13 @@ const places = [
   // ===== 大部屋 U =====
 
   {
-    name: "第1七種茨 七種茨準備室 七種茨更衣室",
+    name: "第1体育館 体育科準備室 体育館更衣室",
     x: 49.0,
     y: 82.6,
     width: 17,
     height: 8,
     detail: true,
-    description: "第1七種茨・七種茨準備室・七種茨更衣室の詳細情報です。",
+    description: "第1体育館・体育科準備室・体育館更衣室の詳細情報です。",
     location: "1階",
     time: "詳細情報を入力してください"
   }
