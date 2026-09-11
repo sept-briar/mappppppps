@@ -9,8 +9,8 @@
 // ※ここが違う場合は変更
 // ========================================
 
-const ORIGINAL_WIDTH = 3500;
-const ORIGINAL_HEIGHT = 5000;
+const ORIGINAL_WIDTH = 2480;
+const ORIGINAL_HEIGHT = 3508;
 
 
 // ========================================
