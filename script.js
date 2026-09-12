@@ -61,9 +61,24 @@ const floor1Places = [
  width: 180,
  height: 65
 },
-{ name: "天祥院英智", x: 1792, y: 1936, width: 200, height: 65 },
-{ name: "七種茨", x: 1744, y: 2291, width: 160, height: 65 },
-{ name: "斎宮宗", x: 974, y: 2501, width: 160, height: 65 },
+{ name: "天祥院英智",
+ x: 1792,
+ y: 1936,
+ width: 200,
+ height: 65
+},
+{ name: "七種茨",
+ x: 1744,
+ y: 2291,
+ width: 160,
+ height: 65
+},
+{ name: "斎宮宗",
+ x: 974,
+ y: 2501,
+ width: 160,
+ height: 65
+},
 { name: "高1G", x: 1964, y: 1978, width: 140, height: 60 },
 { name: "高2I", x: 1967, y: 2110, width: 140, height: 60 },
 { name: "第1七種茨 七種茨準備室 七種茨更衣室", x: 1235, y: 2845, width: 500, height: 90 },
