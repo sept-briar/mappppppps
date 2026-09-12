@@ -55,7 +55,12 @@ const floor1Places = [
  width: 220,
  height: 65
 },
-{ name: "天城一彩", x: 1738, y: 1795, width: 180, height: 65 },
+{ name: "天城一彩",
+ x: 1738,
+ y: 1795,
+ width: 180,
+ height: 65
+},
 { name: "天祥院英智", x: 1792, y: 1936, width: 200, height: 65 },
 { name: "七種茨", x: 1744, y: 2291, width: 160, height: 65 },
 { name: "斎宮宗", x: 974, y: 2501, width: 160, height: 65 },
