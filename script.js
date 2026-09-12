@@ -19,13 +19,13 @@ const ORIGINAL_HEIGHT = 3508;
 
 const floor1Places = [
 
-{ name: "七種キャンパス",
+{ name: "清教キャンパス",
  x: 825,
  y: 905,
  width: 220,
  height: 65
 },
-{ name: "伏見",
+{ name: "食堂",
  x: 994,
  y: 1025,
  width: 160,
