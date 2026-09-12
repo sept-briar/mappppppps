@@ -126,11 +126,35 @@ const floor1Places = [
  y: 2496,
  width: 140,
  height: 60 },
-{ name: "高2H", x: 2323, y: 1992, width: 140, height: 60 },
-{ name: "茨2G", x: 2321, y: 1848, width: 140, height: 60 },
-{ name: "同窓会企画", x: 1167, y: 2589, width: 220, height: 65 },
-{ name: "剣持刀也", x: 725, y: 812, width: 180, height: 65 },
-{ name: "第2体育館", x: 595, y: 2856, width: 180, height: 65 }
+{ name: "高2H", 
+ x: 2323,
+ y: 1992,
+ width: 140,
+ height: 60
+},
+{ name: "茨2G",
+ x: 2321,
+ y: 1848,
+ width: 140,
+ height: 60
+},
+{ name: "同窓会企画",
+ x: 1167,
+ y: 2589,
+ width: 220,
+ height: 65
+},
+{ name: "剣持刀也",
+ x: 725,
+ y: 812,
+ width: 180,
+ height: 65 },
+{ name: "第2体育館",
+ x: 595,
+ y: 2856,
+ width: 180,
+ height: 65
+}
 
 ];
 
