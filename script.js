@@ -23,7 +23,7 @@ const floor1Places = [
  x: 825,
  y: 905,
  width: 220,
- height: 65
+ height: 65,
  
  detail: true,
  description: "売店",
@@ -34,7 +34,7 @@ const floor1Places = [
  x: 994,
  y: 1025,
  width: 160,
- height: 65
+ height: 65,
 
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -45,7 +45,7 @@ const floor1Places = [
  x: 1177,
  y: 431,
  width: 160,
- height: 65
+ height: 65,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -56,7 +56,7 @@ const floor1Places = [
  x: 1432,
  y: 968,
  width: 160,
- height: 65
+ height: 65,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -103,7 +103,7 @@ const floor1Places = [
  x: 1964,
  y: 1978,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "テントです",
@@ -114,7 +114,7 @@ const floor1Places = [
  x: 1967,
  y: 2110,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -125,7 +125,7 @@ const floor1Places = [
  x: 1235,
  y: 2845,
  width: 500,
- height: 90
+ height: 90,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -160,7 +160,7 @@ const floor1Places = [
  x: 2320,
  y: 2496,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -171,7 +171,7 @@ const floor1Places = [
  x: 2323,
  y: 1992,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -182,7 +182,7 @@ const floor1Places = [
  x: 2321,
  y: 1848,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -193,7 +193,7 @@ const floor1Places = [
  x: 1167,
  y: 2589,
  width: 220,
- height: 65
+ height: 65,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -204,7 +204,7 @@ const floor1Places = [
  x: 595,
  y: 2856,
  width: 180,
- height: 65
+ height: 65,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -237,7 +237,8 @@ const floor2Places = [
  x: 1014,
  y: 1143,
  width: 160,
- height: 60 },
+ height: 60
+},
 { name: "講座室1",
  x: 1190,
  y: 1315,
@@ -248,7 +249,7 @@ const floor2Places = [
  x: 1317,
  y: 1438,
  width: 140,
- height: 60
+ height: 60,
 
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -259,7 +260,7 @@ const floor2Places = [
  x: 1442,
  y: 1559,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -287,7 +288,7 @@ const floor2Places = [
  x: 1672,
  y: 2158,
  width: 140,
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -298,7 +299,7 @@ const floor2Places = [
  x: 1674,
  y: 2333,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -456,7 +457,7 @@ const floor3Places = [
  x: 1897, 
  y: 2146, 
  width: 140, 
- height: 60
+ height: 60,
  
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -467,7 +468,7 @@ const floor3Places = [
  x: 1898, 
  y: 2281,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -478,7 +479,7 @@ const floor3Places = [
  x: 1897,
  y: 2413,
  width: 140,
- height: 60 
+ height: 60 ,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -495,8 +496,8 @@ const floor3Places = [
  x: 1266, 
  y: 2030,
  width: 140, 
- height: 60
-  
+ height: 60,
+
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
@@ -506,7 +507,7 @@ const floor3Places = [
  x: 1146, 
  y: 2032, 
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -517,7 +518,7 @@ const floor3Places = [
  x: 1244,
  y: 2322,
  width: 280,
- height: 65
+ height: 65,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -528,7 +529,7 @@ const floor3Places = [
  x: 724,
  y: 2214,
  width: 160,
- height: 65
+ height: 65,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -539,7 +540,7 @@ const floor3Places = [
  x: 824,
  y: 2582,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -556,7 +557,7 @@ const floor3Places = [
  x: 1090,
  y: 2582, 
  width: 140, 
- height: 60 
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -567,7 +568,7 @@ const floor3Places = [
  x: 1224,
  y: 2584,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -578,7 +579,7 @@ const floor3Places = [
  x: 1454, 
  y: 2582,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -589,7 +590,7 @@ const floor3Places = [
  x: 1586,
  y: 2580, 
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -735,7 +736,7 @@ const floor4Places = [
  x: 1580,
  y: 2534,
  width: 240,
- height: 65
+ height: 65,
   
  detail: true,
  description: "展示",
@@ -746,7 +747,7 @@ const floor4Places = [
  x: 1219,
  y: 2552,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "部活動壁新聞の展示をしています。",
@@ -757,7 +758,7 @@ const floor4Places = [
  x: 1081,
  y: 2552,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "PTAの方の控室です。",
@@ -798,7 +799,7 @@ const floor4Places = [
  x: 1459,
  y: 1974,
  width: 200,
- height: 65
+ height: 65,
   
  detail: true,
  description: "美術？よくわからん後で確認",
@@ -809,7 +810,7 @@ const floor4Places = [
  x: 1506, 
  y: 2116,
  width: 160, 
- height: 65
+ height: 65,
   
  detail: true,
  description: "卒論等展示あるかも、後で確認",
@@ -842,7 +843,7 @@ const basementPlaces = [
  x: 642,
  y: 1636,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -853,7 +854,7 @@ const basementPlaces = [
  x: 642,
  y: 1819,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -864,7 +865,7 @@ const basementPlaces = [
  x: 642,
  y: 2004,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -875,7 +876,7 @@ const basementPlaces = [
  x: 623,
  y: 2363,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -892,7 +893,7 @@ const basementPlaces = [
  x: 1343,
  y: 1441,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -903,7 +904,7 @@ const basementPlaces = [
  x: 1343,
  y: 1626,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
@@ -914,7 +915,7 @@ const basementPlaces = [
  x: 1343,
  y: 1818,
  width: 140,
- height: 60
+ height: 60,
   
  detail: true,
  description: "ここに詳しい説明を書く",
