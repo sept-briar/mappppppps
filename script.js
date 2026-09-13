@@ -24,24 +24,44 @@ const floor1Places = [
  y: 905,
  width: 220,
  height: 65
+ 
+ detail: true,
+ description: "売店",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "食堂",
  x: 994,
  y: 1025,
  width: 160,
  height: 65
+
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "同窓会",
  x: 1177,
  y: 431,
  width: 160,
  height: 65
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "同窓会",
  x: 1432,
  y: 968,
  width: 160,
  height: 65
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "国際交流委員会",
  x: 1317,
@@ -84,18 +104,33 @@ const floor1Places = [
  y: 1978,
  width: 140,
  height: 60
+ 
+ detail: true,
+ description: "テントです",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "高2I",
  x: 1967,
  y: 2110,
  width: 140,
  height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "第1体育館 体育科準備室 体育館更衣室",
  x: 1235,
  y: 2845,
  width: 500,
  height: 90
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "第2体育館",
  x: 602,
@@ -125,30 +160,56 @@ const floor1Places = [
  x: 2320,
  y: 2496,
  width: 140,
- height: 60 },
+ height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
+},
 { name: "高2H", 
  x: 2323,
  y: 1992,
  width: 140,
  height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "高2G",
  x: 2321,
  y: 1848,
  width: 140,
  height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "同窓会企画",
  x: 1167,
  y: 2589,
  width: 220,
  height: 65
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 },
 { name: "第2体育館",
  x: 595,
  y: 2856,
  width: 180,
  height: 65
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "1階",
+ time: "8:30〜17:00"
 }
 
 ];
@@ -187,12 +248,23 @@ const floor2Places = [
  x: 1317,
  y: 1438,
  width: 140,
- height: 60 },
+ height: 60
+
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "2階",
+ time: "9:00〜14:30"
+},
 { name: "高1F",
  x: 1442,
  y: 1559,
  width: 140,
  height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "2階",
+ time: "8:30〜17:00"
 },
 { name: "第1化学室",
  x: 1839,
@@ -215,13 +287,23 @@ const floor2Places = [
  x: 1672,
  y: 2158,
  width: 140,
- height: 60 
+ height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "2階",
+ time: "9:00〜14:30"
 },
 { name: "高1I",
  x: 1674,
  y: 2333,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "2階",
+ time: "9:00〜14:30"
 },
 { name: "高1J",
  x: 1673,
@@ -339,7 +421,8 @@ const floor3Places = [
  x: 1628,
  y: 1599,
  width: 140,
- height: 60 },
+ height: 60
+},
 { name: "高3D",
  x: 1726, 
  y: 1684,
@@ -374,18 +457,33 @@ const floor3Places = [
  y: 2146, 
  width: 140, 
  height: 60
+ 
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "高1C",
  x: 1898, 
  y: 2281,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "高1D",
  x: 1897,
  y: 2413,
  width: 140,
  height: 60 
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "ピロティ",
  x: 1478,
@@ -397,31 +495,56 @@ const floor3Places = [
  x: 1266, 
  y: 2030,
  width: 140, 
- height: 60 
+ height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中3A",
  x: 1146, 
  y: 2032, 
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "イングリッシュルーム",
  x: 1244,
  y: 2322,
  width: 280,
  height: 65
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "チャペル",
  x: 724,
  y: 2214,
  width: 160,
  height: 65
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中1D",
  x: 824,
  y: 2582,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中1C",
  x: 956,
@@ -434,24 +557,44 @@ const floor3Places = [
  y: 2582, 
  width: 140, 
  height: 60 
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中1A",
  x: 1224,
  y: 2584,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中3B", 
  x: 1454, 
  y: 2582,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中3D",
  x: 1586,
  y: 2580, 
  width: 140,
- height: 60 
+ height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中学講座室",
  x: 1716,
@@ -593,18 +736,33 @@ const floor4Places = [
  y: 2534,
  width: 240,
  height: 65
+  
+ detail: true,
+ description: "展示",
+ location: "4階",
+ time: "9:00〜14:30"
 },
 { name: "中2A",
  x: 1219,
  y: 2552,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "部活動壁新聞の展示をしています。",
+ location: "2階",
+ time: "9:00〜14:30"
 },
 { name: "中2B",
  x: 1081,
  y: 2552,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "PTAの方の控室です。",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "中2C",
  x: 957,
@@ -641,12 +799,22 @@ const floor4Places = [
  y: 1974,
  width: 200,
  height: 65
+  
+ detail: true,
+ description: "美術？よくわからん後で確認",
+ location: "4階",
+ time: "9:00〜14:30"
 },
 { name: "図書館",
  x: 1506, 
  y: 2116,
  width: 160, 
- height: 65 
+ height: 65
+  
+ detail: true,
+ description: "卒論等展示あるかも、後で確認",
+ location: "4階",
+ time: "9:00〜14:30"
 },
 { name: "スタディホール",
  x: 1508,
@@ -675,24 +843,44 @@ const basementPlaces = [
  y: 1636,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "地下階",
+ time: "9:00〜14:30"
 },
 { name: "高2E",
  x: 642,
  y: 1819,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "地下階",
+ time: "9:00〜14:30"
 },
 { name: "高2F",
  x: 642,
  y: 2004,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "地下階",
+ time: "9:00〜14:30"
 },
 { name: "高2J",
  x: 623,
  y: 2363,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "2階",
+ time: "9:00〜14:30"
 },
 { name: "生徒会室 学園祭準備室",
  x: 395,
@@ -705,18 +893,33 @@ const basementPlaces = [
  y: 1441,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "地下階",
+ time: "9:00〜14:30"
 },
 { name: "高2B",
  x: 1343,
  y: 1626,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "地下階",
+ time: "9:00〜14:30"
 },
 { name: "高2C",
  x: 1343,
  y: 1818,
  width: 140,
  height: 60
+  
+ detail: true,
+ description: "ここに詳しい説明を書く",
+ location: "地下階",
+ time: "9:00〜14:30"
 },
 { name: "教育相談室",
  x: 1287,
