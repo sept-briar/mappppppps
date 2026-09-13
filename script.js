@@ -247,10 +247,30 @@ const floor2Places = [
  width: 160,
  height: 65
 },
-{ name: "絶望部", x: 996, y: 2737, width: 160, height: 65 },
-{ name: "説経室", x: 708, y: 2735, width: 160, height: 65 },
-{ name: "宗教部", x: 560, y: 2732, width: 160, height: 65 },
-{ name: "天使・日々樹渉", x: 158, y: 2702, width: 220, height: 65 }
+{ name: "絶望部",
+ x: 996,
+ y: 2737,
+ width: 160,
+ height: 65
+},
+{ name: "説経室",
+ x: 708,
+ y: 2735,
+ width: 160,
+ height: 65
+},
+{ name: "宗教部",
+ x: 560,
+ y: 2732,
+ width: 160,
+ height: 65
+},
+{ name: "天使・日々樹渉",
+ x: 158,
+ y: 2702,
+ width: 220,
+ height: 65
+}
 
 ];
 
