@@ -229,9 +229,24 @@ const floor2Places = [
  width: 140,
  height: 60 
 },
-{ name: "衣更真緒室", x: 2214, y: 2706, width: 200, height: 65 },
-{ name: "仏教室", x: 1296, y: 2737, width: 160, height: 65 },
-{ name: "企画室", x: 1145, y: 2734, width: 160, height: 65 },
+{ name: "衣更真緒室",
+ x: 2214,
+ y: 2706,
+ width: 200,
+ height: 65
+},
+{ name: "仏教室",
+ x: 1296,
+ y: 2737,
+ width: 160,
+ height: 65
+},
+{ name: "企画室",
+ x: 1145,
+ y: 2734,
+ width: 160,
+ height: 65
+},
 { name: "絶望部", x: 996, y: 2737, width: 160, height: 65 },
 { name: "説経室", x: 708, y: 2735, width: 160, height: 65 },
 { name: "宗教部", x: 560, y: 2732, width: 160, height: 65 },
