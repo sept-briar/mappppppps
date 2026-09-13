@@ -493,7 +493,7 @@ const floor3Places = [
 
 const floor4Places = [
 
-{ name: "総合学習室",
+{ name: "総合体育館",
  x: 372, 
  y: 1191,
  width: 200, 
@@ -594,7 +594,7 @@ const floor4Places = [
  width: 240,
  height: 65
 },
-{ name: "中3A",
+{ name: "中2A",
  x: 1219,
  y: 2552,
  width: 140,
@@ -664,7 +664,7 @@ const floor4Places = [
 
 const basementPlaces = [
 
-{ name: "七種茨室",
+{ name: "情報科室",
  x: 634,
  y: 1209,
  width: 160,
@@ -694,7 +694,7 @@ const basementPlaces = [
  width: 140,
  height: 60
 },
-{ name: "萌萌萌室 学園祭準備室",
+{ name: "生徒会室 学園祭準備室",
  x: 395,
  y: 2571,
  width: 300,
@@ -718,7 +718,7 @@ const basementPlaces = [
  width: 140,
  height: 60
 },
-{ name: "七種相談室",
+{ name: "教育相談室",
  x: 1287,
  y: 2170,
  width: 200,
