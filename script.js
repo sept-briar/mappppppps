@@ -942,7 +942,7 @@ const basementPlaces = [
 // 今いるページが何階か判定
 // ========================================
 
-const path = window.location.pathname;
+const path = decodeURIComponent(window.location.pathname);
 
 let places = [];
 let floorName = "";
