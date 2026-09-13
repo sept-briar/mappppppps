@@ -287,19 +287,19 @@ const floor3Places = [
  width: 260,
  height: 65
 },
-{ name: "巴日和",
+{ name: "柔道場",
  x: 414,
  y: 1007,
  width: 160,
  height: 65
 },
-{ name: "巴日和準備室",
+{ name: "体育科準備室",
  x: 260, 
  y: 1454,
  width: 220,
  height: 65
 },
-{ name: "巴日体育館",
+{ name: "総合体育館",
  x: 514,
  y: 1437,
  width: 200,
