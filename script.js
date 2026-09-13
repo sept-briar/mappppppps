@@ -1039,8 +1039,14 @@ if (mapButtons) {
     // 文字そのものだけでなく、
     // 少し余裕を持たせる
 
-    button.style.width = "7%";
-    button.style.height = "3.5%";
+    button.style.left = xPercent + "%";
+button.style.top = yPercent + "%";
+
+button.style.width =
+  ((place.width || 160) / ORIGINAL_WIDTH * 100) + "%";
+
+button.style.height =
+  ((place.height || 65) / ORIGINAL_HEIGHT * 100) + "%";
 
 
     // 中心基準
