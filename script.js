@@ -225,7 +225,7 @@ const floor2Places = [
  x: 618,
  y: 847,
  width: 180,
- height: 65，
+ height: 65,
 },
 { name: "技術科室",
  x: 880,
