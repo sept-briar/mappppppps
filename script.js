@@ -229,13 +229,13 @@ const floor2Places = [
  width: 140,
  height: 60 
 },
-{ name: "衣更真緒室",
+{ name: "高校職員室",
  x: 2214,
  y: 2706,
  width: 200,
  height: 65
 },
-{ name: "仏教室",
+{ name: "校長室",
  x: 1296,
  y: 2737,
  width: 160,
@@ -247,13 +247,13 @@ const floor2Places = [
  width: 160,
  height: 65
 },
-{ name: "絶望部",
+{ name: "入試部",
  x: 996,
  y: 2737,
  width: 160,
  height: 65
 },
-{ name: "説経室",
+{ name: "教務室",
  x: 708,
  y: 2735,
  width: 160,
@@ -265,7 +265,7 @@ const floor2Places = [
  width: 160,
  height: 65
 },
-{ name: "天使・日々樹渉",
+{ name: "理事・理事長室",
  x: 158,
  y: 2702,
  width: 220,
