@@ -1102,7 +1102,27 @@ function openPopup(place) {
   popupTitle.textContent =
     place.name;
 
+// ポップアップ画像
+if (popupImage) {
 
+  if (place.image) {
+
+    popupImage.src = place.image;
+    popupImage.alt = place.name;
+    popupImage.style.display = "block";
+
+  } else {
+
+    popupImage.src = "";
+    popupImage.alt = "";
+    popupImage.style.display = "none";
+
+  }
+
+}
+
+}
+ 
   if (place.detail) {
 
     popupDescription.textContent =
