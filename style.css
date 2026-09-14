@@ -672,19 +672,7 @@ body {
     .popup h2 {
         font-size: 24px;
     }
-/* ========================================
-   ポップアップ画像
-======================================== */
 
-.popup-image {
-    display: none;
-    width: 100%;
-    max-width: 500px;
-    max-height: 350px;
-    object-fit: contain;
-    margin: 15px auto;
-    border-radius: 8px;
-}
  css
 /* ========================================
    全体
@@ -1356,25 +1344,22 @@ body {
     }
 
 
-    .popup h2 {
+        .popup h2 {
         font-size: 24px;
     }
+}
 
-   /* ========================================
+/* ========================================
    ポップアップ画像
 ======================================== */
 
 .popup-image {
     display: none;
-
     width: 100%;
     max-width: 500px;
     max-height: 350px;
-
     object-fit: contain;
-
     margin: 15px auto;
-
     border-radius: 8px;
 }
    
