@@ -1092,47 +1092,43 @@ function openPopup(place) {
 
   if (!popupOverlay) return;
 
-
   popupCategory.textContent =
     place.detail
       ? "施設情報"
       : "校内マップ";
 
-
   popupTitle.textContent =
     place.name;
 
-// ポップアップ画像
-if (popupImage) {
+  // ポップアップ画像
+  if (popupImage) {
 
-  if (place.image) {
+    if (place.image) {
 
-    popupImage.src = place.image;
-    popupImage.alt = place.name;
-    popupImage.style.display = "block";
+      popupImage.src = place.image;
+      popupImage.alt = place.name;
+      popupImage.style.display = "block";
 
-  } else {
+    } else {
 
-    popupImage.src = "";
-    popupImage.alt = "";
-    popupImage.style.display = "none";
+      popupImage.removeAttribute("src");
+      popupImage.alt = "";
+      popupImage.style.display = "none";
+
+    }
 
   }
 
-}
-
-}
- 
   if (place.detail) {
 
     popupDescription.textContent =
-      place.description;
+      place.description || "";
 
     popupLocation.textContent =
-      place.location;
+      place.location || "";
 
     popupTime.textContent =
-      place.time;
+      place.time || "";
 
   } else {
 
@@ -1147,11 +1143,9 @@ if (popupImage) {
 
   }
 
-
   popupOverlay.classList.add("active");
 
 }
-
 
 // ========================================
 // ×で閉じる
