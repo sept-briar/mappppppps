@@ -989,6 +989,7 @@ const popupTitle = document.getElementById("popup-title");
 const popupDescription = document.getElementById("popup-description");
 const popupLocation = document.getElementById("popup-location");
 const popupTime = document.getElementById("popup-time");
+const popupImage = document.getElementById("popup-image");
 
 
 // ========================================
