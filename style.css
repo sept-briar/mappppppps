@@ -673,4 +673,14 @@ body {
         font-size: 24px;
     }
 
+   .popup-image {
+    display: none;
+    width: 100%;
+    max-width: 500px;
+    max-height: 350px;
+    object-fit: contain;
+    margin: 15px auto;
+    border-radius: 8px;
+   }
+   
 }
