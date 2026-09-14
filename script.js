@@ -737,8 +737,8 @@ const floor4Places = [
  y: 2534,
  width: 240,
  height: 65,
-  
  detail: true,
+ image: "DSC01171.jpg",
  description: "展示",
  location: "4階",
  time: "9:00〜14:30"
