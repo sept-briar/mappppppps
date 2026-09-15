@@ -409,4 +409,18 @@ h3 {
   nav { 
     gap: 7px; 
   } 
+
+   /* 各階ページの戻るボタン */
+.back-link {
+  position: relative;
+  z-index: 9999;
+  display: inline-block;
+  pointer-events: auto;
+  color: var(--green-dark);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
 }
