@@ -948,20 +948,20 @@ let places = [];
 let floorName = "";
 
 if (path.includes("floor地下")) {
-    places = basementPlaces;
-    floorName = "地下階";
+  places = basementPlaces;
+  floorName = "地下階";
 } else if (path.includes("floor1")) {
-    places = floor1Places;
-    floorName = "1階";
+  places = floor1Places;
+  floorName = "1階";
 } else if (path.includes("floor2")) {
-    places = floor2Places;
-    floorName = "2階";
+  places = floor2Places;
+  floorName = "2階";
 } else if (path.includes("floor3")) {
-    places = floor3Places;
-    floorName = "3階";
+  places = floor3Places;
+  floorName = "3階";
 } else if (path.includes("floor4")) {
-    places = floor4Places;
-    floorName = "4階";
+  places = floor4Places;
+  floorName = "4階";
 }
 
 
@@ -987,83 +987,77 @@ const popupImage = document.getElementById("popup-image");
 // ========================================
 
 if (mapButtons) {
+  places.forEach(place => {
+    const button = document.createElement("button");
 
-    places.forEach(place => {
+    button.type = "button";
+    button.className = "map-button";
 
-        const button = document.createElement("button");
+    // ポップアップ情報がある場所
+    if (place.detail === true) {
+      button.classList.add("has-popup");
+    }
 
-        button.type = "button";
-        button.className = "map-button";
+    // 地図画像に文字があるため、ボタン上には文字を表示しない
+    button.textContent = "";
 
-        // 詳細情報がある場所
-        if (place.detail === true) {
-            button.classList.add("has-popup");
-        }
+    button.setAttribute(
+      "aria-label",
+      `${place.name}を開く`
+    );
 
-        // 地図画像に文字があるため、ボタン上には文字を表示しない
-        button.textContent = "";
+    // ========================================
+    // クリスタ座標をパーセントに変換
+    // ========================================
 
-        button.setAttribute(
-            "aria-label",
-            `${place.name}を開く`
-        );
+    const xPercent =
+      (place.x / ORIGINAL_WIDTH) * 100;
 
-        // ========================================
-        // クリスタ座標をパーセントに変換
-        // ========================================
+    const yPercent =
+      (place.y / ORIGINAL_HEIGHT) * 100;
 
-        const xPercent =
-            (place.x / ORIGINAL_WIDTH) * 100;
+    const widthPercent =
+      ((place.width || 160) / ORIGINAL_WIDTH) * 100;
 
-        const yPercent =
-            (place.y / ORIGINAL_HEIGHT) * 100;
-
-        const widthPercent =
-            ((place.width || 160) / ORIGINAL_WIDTH) * 100;
-
-        const heightPercent =
-            ((place.height || 65) / ORIGINAL_HEIGHT) * 100;
+    const heightPercent =
+      ((place.height || 65) / ORIGINAL_HEIGHT) * 100;
 
 
-        // ========================================
-        // タップ領域の位置・大きさ
-        // ========================================
+    // ========================================
+    // タップ領域の位置・大きさ
+    // ========================================
 
-        button.style.left = `${xPercent}%`;
-        button.style.top = `${yPercent}%`;
+    button.style.left = `${xPercent}%`;
+    button.style.top = `${yPercent}%`;
+    button.style.width = `${widthPercent}%`;
+    button.style.height = `${heightPercent}%`;
 
-        button.style.width = `${widthPercent}%`;
-        button.style.height = `${heightPercent}%`;
-
-        // x・yを中心座標として扱う
-        button.style.transform =
-            "translate(-50%, -50%)";
+    // x・yを中心座標として扱う
+    button.style.transform = "translate(-50%, -50%)";
 
 
-        // ========================================
-        // 動作確認用の表示
-        // ========================================
-        // 位置を確認できるように色をつけています。
-        // 問題なく動いたら透明に戻してもOKです。
+    // ========================================
+    // ボタンを完全透明にする
+    // ========================================
 
-     button.style.background = "transparent";
-     button.style.border = "none";
-     button.style.cursor = "pointer";
-｝
-
-        // ========================================
-        // クリック・タップ時の処理
-        // ========================================
-
-        button.addEventListener("click", () => {
-            openPopup(place);
-        });
+    button.style.background = "transparent";
+    button.style.border = "none";
+    button.style.outline = "none";
+    button.style.boxShadow = "none";
+    button.style.color = "transparent";
+    button.style.cursor = "pointer";
 
 
-        mapButtons.appendChild(button);
+    // ========================================
+    // クリック・タップ時の処理
+    // ========================================
 
+    button.addEventListener("click", () => {
+      openPopup(place);
     });
 
+    mapButtons.appendChild(button);
+  });
 }
 
 
@@ -1072,73 +1066,80 @@ if (mapButtons) {
 // ========================================
 
 function openPopup(place) {
+  if (!popupOverlay) {
+    return;
+  }
 
-    if (!popupOverlay) {
-        return;
-    }
-
-    // カテゴリー
+  // カテゴリー
+  if (popupCategory) {
     popupCategory.textContent =
-        place.detail === true
-            ? "施設情報"
-            : "校内マップ";
+      place.detail === true
+        ? "施設情報"
+        : "校内マップ";
+  }
 
+  // タイトル
+  if (popupTitle) {
+    popupTitle.textContent = place.name;
+  }
 
-    // タイトル
-    popupTitle.textContent =
-        place.name;
-
-
-    // 画像
-    if (popupImage) {
-
-        if (place.image) {
-
-            // HTMLと同じフォルダに画像がある場合
-            popupImage.src = place.image;
-            popupImage.alt = place.name;
-            popupImage.style.display = "block";
-
-        } else {
-
-            popupImage.removeAttribute("src");
-            popupImage.alt = "";
-            popupImage.style.display = "none";
-
-        }
-
-    }
-
-
-    // 詳細情報がある場所
-    if (place.detail === true) {
-
-        popupDescription.textContent =
-            place.description || "説明は準備中です。";
-
-        popupLocation.textContent =
-            place.location || floorName;
-
-        popupTime.textContent =
-            place.time || "―";
-
+  // 画像
+  if (popupImage) {
+    if (place.image) {
+      popupImage.src = place.image;
+      popupImage.alt = place.name;
+      popupImage.style.display = "block";
     } else {
+      popupImage.removeAttribute("src");
+      popupImage.alt = "";
+      popupImage.style.display = "none";
+    }
+  }
 
-        popupDescription.textContent =
-            `${place.name}の場所です。`;
-
-        popupLocation.textContent =
-            floorName;
-
-        popupTime.textContent =
-            "―";
-
+  // 詳細情報がある場所
+  if (place.detail === true) {
+    if (popupDescription) {
+      popupDescription.textContent =
+        place.description || "説明は準備中です。";
     }
 
+    if (popupLocation) {
+      popupLocation.textContent =
+        place.location || floorName;
+    }
 
-    // ポップアップを表示
-    popupOverlay.classList.add("active");
+    if (popupTime) {
+      popupTime.textContent =
+        place.time || "―";
+    }
+  } else {
+    if (popupDescription) {
+      popupDescription.textContent =
+        `${place.name}の場所です。`;
+    }
 
+    if (popupLocation) {
+      popupLocation.textContent = floorName;
+    }
+
+    if (popupTime) {
+      popupTime.textContent = "―";
+    }
+  }
+
+  // ポップアップを表示
+  popupOverlay.classList.add("show");
+}
+
+
+// ========================================
+// ポップアップを閉じる関数
+// ========================================
+
+function closePopup() {
+  if (popupOverlay) {
+    popupOverlay.classList.remove("show");
+  }
 }
 
 
@@ -1146,12 +1147,8 @@ function openPopup(place) {
 // ×ボタンで閉じる
 // ========================================
 
-if (closeButton && popupOverlay) {
-
-    closeButton.addEventListener("click", () => {
-        popupOverlay.classList.remove("active");
-    });
-
+if (closeButton) {
+  closeButton.addEventListener("click", closePopup);
 }
 
 
@@ -1160,15 +1157,11 @@ if (closeButton && popupOverlay) {
 // ========================================
 
 if (popupOverlay) {
-
-    popupOverlay.addEventListener("click", event => {
-
-        if (event.target === popupOverlay) {
-            popupOverlay.classList.remove("active");
-        }
-
-    });
-
+  popupOverlay.addEventListener("click", event => {
+    if (event.target === popupOverlay) {
+      closePopup();
+    }
+  });
 }
 
 
@@ -1177,13 +1170,7 @@ if (popupOverlay) {
 // ========================================
 
 document.addEventListener("keydown", event => {
-
-    if (
-        event.key === "Escape" &&
-        popupOverlay &&
-        popupOverlay.classList.contains("active")
-    ) {
-        popupOverlay.classList.remove("active");
-    }
-
+  if (event.key === "Escape") {
+    closePopup();
+  }
 });
