@@ -669,4 +669,13 @@ body {
     .popup h2 { 
         font-size: 24px; 
    　｝
+   /* タップ領域を完全に透明にする */
+.map-button,
+.map-button.has-popup,
+.map-button.has-popup:hover,
+.map-button.has-popup:active {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
     }　
