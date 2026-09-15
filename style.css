@@ -95,39 +95,37 @@ h3 {
 #map-buttons {
   position: absolute;
   inset: 0;
-  pointer-events: none;
+  pointer-events: auto;
 }
-
-/*
-  ボタンは透明。
-  background・border・文字をすべて非表示にして、
-  クリック範囲だけを残す。
-*/
 
 .map-button {
   position: absolute;
   display: block;
+
   padding: 0;
   margin: 0;
 
-  background: transparent;
-  border: none;
-  outline: none;
-  box-shadow: none;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 
   color: transparent;
-  font-size: 0;
-  line-height: 0;
-
   cursor: pointer;
   pointer-events: auto;
+
   appearance: none;
   -webkit-appearance: none;
-
-  opacity: 1;
-  text-decoration: none;
 }
 
+.map-button:hover,
+.map-button:focus,
+.map-button:active {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
 /* ホバー・フォーカス時も透明のまま */
 
 .map-button:hover,
