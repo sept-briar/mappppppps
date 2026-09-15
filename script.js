@@ -1040,32 +1040,11 @@ if (mapButtons) {
             "translate(-50%, -50%)";
 
 
-        // ========================================
-        // 動作確認用の表示
-        // ========================================
-        // 位置を確認できるように色をつけています。
-        // 問題なく動いたら透明に戻してもOKです。
-
-        if (place.detail === true) {
-
-            button.style.background =
-                "rgba(0, 184, 132, 0.35)";
-
-            button.style.border =
-                "2px solid rgba(0, 143, 107, 0.9)";
-
-        } else {
-
-            button.style.background =
-                "rgba(255, 80, 80, 0.2)";
-
-            button.style.border =
-                "2px solid rgba(220, 60, 60, 0.7)";
-
-        }
-
-        button.style.cursor = "pointer";
-
+       // ========================================
+     　// タップ領域は透明にする
+     　// ========================================
+     button.style.background = "transparent";
+     button.style.border = "none";
 
         // ========================================
         // クリック・タップ時の処理
