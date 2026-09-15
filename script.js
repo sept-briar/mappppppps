@@ -52,6 +52,16 @@ const floor1Places = [
  location: "1階",
  time: "8:30〜17:00"
 },
+{name: "献血",
+ detail: true,
+ x: 1409,
+ y: 604,
+ width: 160,
+ height: 65,
+ description: "献血に関する場所です。",
+ location: "1階",
+ time: "―"
+},
 { name: "同窓会",
  x: 1432,
  y: 968,
