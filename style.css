@@ -319,47 +319,34 @@ body {
    → 下線 
 */ 
  
-.map-button.has-popup { 
-    background: rgba(0, 184, 132, 0.13); 
- 
-    border: 2px solid var(--green); 
- 
-    color: var(--green-dark); 
- 
-    font-weight: 700; 
- 
-    text-decoration: underline; 
- 
-    text-decoration-color: var(--green); 
- 
-    text-decoration-thickness: 2px; 
- 
-    text-underline-offset: 3px; 
- 
-    box-shadow: 
-        0 0 0 2px rgba(0, 184, 132, 0.08); 
-} 
+.map-button.has-popup {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--green-dark);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    box-shadow: none;
+}
  
  
 /* マウスを乗せたとき */ 
  
-.map-button.has-popup:hover { 
-    background: rgba(0, 184, 132, 0.25); 
- 
-    border-color: var(--green-dark); 
- 
-    box-shadow: 
-        0 0 0 3px rgba(0, 184, 132, 0.12); 
-} 
+.map-button.has-popup:hover {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
  
  
 /* タップした瞬間 */ 
  
-.map-button.has-popup:active { 
-    background: rgba(0, 184, 132, 0.35); 
- 
-    transform: scale(0.98); 
-} 
+.map-button.has-popup:active {
+    background: transparent;
+    transform: scale(0.98);
+}
  
  
 /* ======================================== 
