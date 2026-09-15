@@ -105,10 +105,8 @@ h3 {
   padding: 0;
   margin: 0;
 
-  background: transparent !important;
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
+  background: rgba(255, 80, 80, 0.2);
+  border: 2px solid rgba(220, 60, 60, 0.7);
 
   color: transparent;
   cursor: pointer;
@@ -119,32 +117,9 @@ h3 {
 }
 
 .map-button:hover,
-.map-button:focus,
-.map-button:active {
-  background: transparent !important;
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
+.map-button:focus-visible {
+  outline: 2px solid var(--green);
 }
-/* ホバー・フォーカス時も透明のまま */
-
-.map-button:hover,
-.map-button:focus,
-.map-button:focus-visible,
-.map-button:active {
-  background: transparent;
-  border: none;
-  outline: none;
-  box-shadow: none;
-  color: transparent;
-}
-
-/* キーボード操作時のブラウザ標準枠も消す */
-
-.map-button::-moz-focus-inner {
-  border: 0;
-}
-
 /* =========================
    ポップアップ
 ========================= */
@@ -435,16 +410,16 @@ h3 {
     gap: 7px;
   }
 
- 
+   #popup-image {
+    max-height: 260px;
+  }
 
-   .map-button,
-.map-button:hover,
-.map-button:focus,
-.map-button:active {
-  background: transparent !important;
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-  color: transparent !important;
+  .floor-menu,
+  .navigation,
+  nav {
+    gap: 7px;
+  }
 }
+
+
 }
