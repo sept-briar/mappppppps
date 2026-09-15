@@ -35,9 +35,9 @@ const floor1Places = [
  y: 1025,
  width: 160,
  height: 65,
-
+ image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "",
  location: "1階",
  time: "8:30〜17:00"
 },
