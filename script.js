@@ -321,6 +321,11 @@ const floor2Places = [
  y: 2510,
  width: 140,
  height: 60 
+ images:"images/",
+ detail:true,
+ description:""
+ location:""
+ time:
 },
 { name: "高校職員室",
  x: 2214,
