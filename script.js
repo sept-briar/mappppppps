@@ -28,7 +28,7 @@ const floor1Places = [
  detail: true,
  description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品を販売しております。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "食堂",
  x: 994,
@@ -39,7 +39,7 @@ const floor1Places = [
  detail: true,
  description: "",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "同窓会",
  x: 1177,
@@ -49,7 +49,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会主催の模擬店で､食品の販売を行っております。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 {name: "献血",
  x: 1409,
@@ -59,7 +59,7 @@ const floor1Places = [
  detail: true,
  description: "献血を行っております。",
  location: "1階",
- time: "―"
+ time: "9:00〜14:30"
 },
 { name: "同窓会",
  x: 1432,
@@ -70,7 +70,7 @@ const floor1Places = [
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "国際交流委員会",
  x: 1317,
@@ -119,7 +119,7 @@ const floor1Places = [
  detail: true,
  description: "テントにてかき氷の販売を行っております。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "高2I",
  x: 1967,
@@ -130,7 +130,7 @@ const floor1Places = [
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "第1体育館 体育科準備室 体育館更衣室",
  x: 1235,
