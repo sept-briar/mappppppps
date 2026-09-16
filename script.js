@@ -297,8 +297,7 @@ const floor2Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "人が乗った台車を押して、どこまで進めるかの距離を競うゲームを開催しています。
-",
+ description: "人が乗った台車を押して、どこまで進めるかの距離を競うゲームを開催しています。",
  location: "2階",
  time: "9:00〜14:30"
 },
@@ -318,7 +317,7 @@ const floor2Places = [
  y: 2510,
  width: 140,
  height: 60,
- images:"images/",
+ image:"images/",
  detail:true,
  description:"氷の冷たさと鮮やかなシロップの甘さが広がる、定番のかき氷！暑さを吹き飛ばすひんやりスイーツで、夏の涼をお楽しみください。",
  location:"2階",
