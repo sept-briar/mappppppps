@@ -37,7 +37,7 @@ const floor1Places = [
  height: 65,
  image:"images/",
  detail: true,
- description: "",
+ description: "食事や休憩をしていただくことができます。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -57,7 +57,7 @@ const floor1Places = [
  width: 160,
  height: 65,
  detail: true,
- description: "献血を行っております。",
+ description: "献血を行っております。お気軽にお立ち寄りください。",
  location: "1階",
  time: "9:00〜14:30"
 },
