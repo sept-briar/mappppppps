@@ -117,7 +117,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "テントです",
+ description: "テントにて",
  location: "1階",
  time: "8:30〜17:00"
 },
