@@ -24,7 +24,7 @@ const floor1Places = [
  y: 905,
  width: 220,
  height: 65,
- 
+ image: "images/",
  detail: true,
  description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品をいつでもお買い求めいただけるよう取り揃えております。お気軽にお立ち寄りください。",
  location: "1階",
@@ -48,7 +48,7 @@ const floor1Places = [
  height: 65,
  
  detail: true,
- description: "ue",
+ description: "同窓会の模擬店で､食品の販売を行っております。",
  location: "1階",
  time: "8:30〜17:00"
 },
@@ -58,7 +58,7 @@ const floor1Places = [
  y: 604,
  width: 160,
  height: 65,
- description: "献血に関する場所です。",
+ description: "献血を行っております。",
  location: "1階",
  time: "―"
 },
