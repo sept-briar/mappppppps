@@ -114,7 +114,7 @@ const floor1Places = [
  y: 1978,
  width: 140,
  height: 60,
- 
+  image:"images/",
  detail: true,
  description: "テントです",
  location: "1階",
@@ -125,7 +125,7 @@ const floor1Places = [
  y: 2110,
  width: 140,
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
@@ -136,7 +136,7 @@ const floor1Places = [
  y: 2845,
  width: 500,
  height: 90,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
@@ -171,7 +171,7 @@ const floor1Places = [
  y: 2496,
  width: 140,
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
@@ -182,7 +182,7 @@ const floor1Places = [
  y: 1992,
  width: 140,
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
@@ -193,7 +193,7 @@ const floor1Places = [
  y: 1848,
  width: 140,
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "1階",
@@ -260,7 +260,7 @@ const floor2Places = [
  y: 1438,
  width: 140,
  height: 60,
-
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "2階",
