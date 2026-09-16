@@ -48,7 +48,7 @@ const floor1Places = [
  height: 65,
  
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "ue",
  location: "1階",
  time: "8:30〜17:00"
 },
