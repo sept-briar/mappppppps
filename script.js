@@ -26,7 +26,7 @@ const floor1Places = [
  height: 65,
  image: "images/",
  detail: true,
- description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品を販売しております。
+ description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品を販売しております。",
  location: "1階",
  time: "8:30〜17:00"
 },
