@@ -52,11 +52,11 @@ const floor1Places = [
  time: "8:30〜17:00"
 },
 {name: "献血",
- detail: true,
  x: 1409,
  y: 604,
  width: 160,
  height: 65,
+ detail: true,
  description: "献血を行っております。",
  location: "1階",
  time: "―"
@@ -106,7 +106,7 @@ const floor1Places = [
  x: 974,
  y: 2501,
  width: 160,
- height: 65
+ height: 65,
  detail: true,
  description: "養護教諭が常駐しております。"
 },
@@ -468,7 +468,7 @@ const floor3Places = [
  y: 2012, 
  width: 140, 
  height: 60,
- image:"images/"
+ image:"images/",
  detail: true,
  description: "",
  location: "2階",
