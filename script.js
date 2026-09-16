@@ -466,7 +466,12 @@ const floor3Places = [
  x: 1898, 
  y: 2012, 
  width: 140, 
- height: 60 
+ height: 60,
+ image:"images/"
+ detail: true,
+ description: "",
+ location: "2階",
+ time: "9:00〜14:30"
 },
 { name: "高1B", 
  x: 1897, 
