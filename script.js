@@ -47,7 +47,7 @@ const floor1Places = [
  width: 160,
  height: 65,
  detail: true,
- description: "同窓会主催の模擬店で､食品の販売を行っております。",
+ description: "同窓会主催の模擬店で､食品の販売を行っております。(フランクフルト・綿菓子・スモア等)",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -68,7 +68,7 @@ const floor1Places = [
  height: 65,
  
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "同窓会本部で、食品の販売を行っております。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -117,7 +117,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "テントにてかき氷の販売を行っております。",
+ description: "テントにてホットケーキ・ワッフル。カステラの販売を行っております。（高1G教室はイートインとなっており、販売は行っておりません。）",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -128,7 +128,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "キャベツとチキンをトルティーヤで包んだケバブサンドを販売しております。（高2I教室での販売は行っておりません。）",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -139,9 +139,9 @@ const floor1Places = [
  height: 90,
  image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "合唱部・ハンドベル部・演劇部・書道部・ダンス部・吹奏楽部の公演のほか、有志によるステージや特別企画も開催しております。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜17:30"
 },
 { name: "第2体育館",
  x: 602,
@@ -174,7 +174,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "",
  location: "1階",
  time: "8:30〜17:00"
 },
