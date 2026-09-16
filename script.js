@@ -271,7 +271,7 @@ const floor2Places = [
  y: 1559,
  width: 140,
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "2階",
@@ -299,7 +299,7 @@ const floor2Places = [
  y: 2158,
  width: 140,
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "2階",
@@ -310,7 +310,7 @@ const floor2Places = [
  y: 2333,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "2階",
@@ -468,7 +468,7 @@ const floor3Places = [
  y: 2146, 
  width: 140, 
  height: 60,
- 
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
@@ -479,7 +479,7 @@ const floor3Places = [
  y: 2281,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
@@ -490,7 +490,7 @@ const floor3Places = [
  y: 2413,
  width: 140,
  height: 60 ,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
