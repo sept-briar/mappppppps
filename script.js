@@ -38,7 +38,7 @@ const floor1Places = [
  image:"images/",
  detail: true,
  description: "",
- location: "1	q`階",
+ location: "1階",
  time: "8:30〜17:00"
 },
 { name: "同窓会",
@@ -117,7 +117,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "テントにて",
+ description: "テントにてかき氷の販売を行っております。",
  location: "1階",
  time: "8:30〜17:00"
 },
