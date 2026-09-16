@@ -38,7 +38,7 @@ const floor1Places = [
  image:"images/",
  detail: true,
  description: "",
- location: "1階",
+ location: "1	q`階",
  time: "8:30〜17:00"
 },
 { name: "同窓会",
@@ -107,13 +107,15 @@ const floor1Places = [
  y: 2501,
  width: 160,
  height: 65
+ detail: true,
+ description: "養護教諭が常駐しております。"
 },
 { name: "高1G", 
  x: 1964,
  y: 1978,
  width: 140,
  height: 60,
-  image:"images/",
+ image:"images/",
  detail: true,
  description: "テントです",
  location: "1階",
