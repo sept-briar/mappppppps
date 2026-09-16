@@ -46,9 +46,8 @@ const floor1Places = [
  y: 431,
  width: 160,
  height: 65,
- 
  detail: true,
- description: "同窓会の模擬店で､食品の販売を行っております。",
+ description: "同窓会主催の模擬店で､食品の販売を行っております。",
  location: "1階",
  time: "8:30〜17:00"
 },
