@@ -205,7 +205,7 @@ const floor1Places = [
  width: 220,
  height: 65,
  detail: true,
- description: "同窓会主催！盲導犬の役割や視覚障がいについて楽しく学べるイベントを開催しております。ぜひお立ち寄りください。",
+ description: "同窓会主催の盲導犬の役割や視覚障がいについて楽しく学べるイベントを開催しております。ぜひお立ち寄りください。",
  location: "1階",
  time: "8:30〜17:00"
 },
@@ -530,7 +530,7 @@ const floor3Places = [
  y: 2032, 
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
@@ -552,9 +552,9 @@ const floor3Places = [
  y: 2214,
  width: 160,
  height: 65,
-  
+ image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "吹奏楽部・ハンドベル部・合唱部による公演をはじめ、有志によるステージや文化祭実行委員企画も開催しております。ぜひお楽しみください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -591,7 +591,7 @@ const floor3Places = [
  y: 2584,
  width: 140,
  height: 60,
-  
+ image:"images/➃",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
