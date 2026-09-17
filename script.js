@@ -131,6 +131,17 @@ const floor1Places = [
  location: "1階",
  time: "9:00〜14:30"
 },
+{ name: "高2I ケバブ屋さん",
+ x: 2325,
+ y: 2144,
+ width: 140,
+ height: 60,
+ image:"images/2-I.png",
+ detail: true,
+ description: "高2I教室では販売を行っておらず、外のテントにて販売しております。ご購入の際は、お間違えのないようご注意ください。",
+ location: "1階",
+ time: "9:00〜14:30"
+},
 { name: "第1体育館",
  x: 1235,
  y: 2845,
