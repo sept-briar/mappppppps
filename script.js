@@ -49,7 +49,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会主催の模擬店にて、フランクフルト・綿菓子・スモアなどを販売しております。ぜひお楽しみください。",
  location: "1階",
- time: "9:00〜14:30"
+ time: "19日 9:00〜14:30"
 },
 {name: "献血",
  x: 1409,
@@ -59,7 +59,7 @@ const floor1Places = [
  detail: true,
  description: "献血を行っております。皆さまのご協力をお願いいたします。",
  location: "1階",
- time: "9:00〜14:30"
+ time: "19日 9:00〜14:30"
 },
 { name: "同窓会本部 食品物販",
  x: 1432,
@@ -69,7 +69,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会本部では、食品の販売を行っております。ぜひお立ち寄りください。",
  location: "1階",
- time: "9:00〜14:30"
+ time: "19日 9:00〜14:30"
 },
 { name: "国際交流委員会",
  x: 1317,
@@ -207,7 +207,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会主催の盲導犬の役割や視覚障がいについて楽しく学べるイベントを開催しております。ぜひお立ち寄りください。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "19日 8:30〜17:00"
 },
 { name: "第2体育館",
  x: 595,
@@ -699,7 +699,11 @@ const floor4Places = [
  x: 1415,
  y: 1579,
  width: 160,
- height: 60
+ height: 60,
+ detail: true,
+ description: "中学理科部の展示や発表が行われます。ぜひお立ち寄りください。",
+ location: "4階",
+ time: "9:00〜14:30"
 },
 { name: "物理準備室",
  x: 1552,
@@ -711,7 +715,11 @@ const floor4Places = [
  x: 1641,
  y: 1764,
  width: 160, 
- height: 60
+ height: 60,
+ detail: true,
+ description: "高校理科部の展示や発表が行われます。ぜひお立ち寄りください。",
+ location: "4階",
+ time: "9:00〜14:30"
 },
 { name: "レクチャールーム",
  x: 2155,
