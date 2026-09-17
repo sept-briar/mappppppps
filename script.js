@@ -136,7 +136,7 @@ const floor1Places = [
  y: 2845,
  width: 500,
  height: 90,
- image:"images/",
+ image:"images/facility_img06.jpg",
  detail: true,
  description: "合唱部・ハンドベル部・演劇部・書道部・ダンス部・吹奏楽部による公演をはじめ、有志によるステージや特別企画も開催しております。ぜひお楽しみください。",
  location: "1階",
@@ -184,7 +184,7 @@ const floor1Places = [
  height: 60,
  image:"images/2-H.png",
  detail: true,
- description: "巨大なすごろく形式の人生ゲームを開催しております。ぜひ挑戦して、ゴールを目指してください。",
+ description: "巨大なすごろく形式の人生ゲームを開催しております。ぜひ挑戦して、ゴールを目指してみてください。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -213,7 +213,7 @@ const floor1Places = [
  x: 595,
  y: 2856,
  width: 180,
- height: 65,
+ height: 65
 }
 
 ];
@@ -267,7 +267,7 @@ const floor2Places = [
  height: 60,
  image:"images/1-F.png",
  detail: true,
- description: "ボールを蹴ってターゲットを狙い、得点を競うゲームです。高得点を目指して、ぜひ挑戦してみてください。",
+ description: "ボールを蹴って次々と現れるターゲットを狙い、得点を競うゲームです。高得点を目指して、ぜひ挑戦してみてください。",
  location: "2階",
  time: "9:00〜14:30"
 },
@@ -295,7 +295,7 @@ const floor2Places = [
  height: 60,
  image:"images/1-H.png",
  detail: true,
- description: "人が乗った台車を押して、進んだ距離を競うゲームです。どこまで進めるか、ぜひ挑戦してみてください。",
+ description: "人が乗った台車を押して、進んだ距離を競うゲームです。どこまで進むことができるのか。ぜひ挑戦してみてください。",
  location: "2階",
  time: "9:00〜14:30"
 },
