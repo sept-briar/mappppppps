@@ -530,7 +530,7 @@ const floor3Places = [
  y: 2032, 
  width: 140,
  height: 60,
- image:"images/",
+ image:"images/➃１A.jpg",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
