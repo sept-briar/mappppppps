@@ -28,7 +28,7 @@ const floor1Places = [
  detail: true,
  description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品をいつでもお買い求めいただけるよう取り揃えております。",
  location: "1階",
- time: "9:00〜14:30"
+ time: "1日目 9:00〜17:00　2日目 9:00～15:30"
 },
 { name: "食堂",
  x: 994,
@@ -433,7 +433,7 @@ const floor3Places = [
  width: 140,
  height: 60,
  detail:true,
- description:"飲食や休憩をしていただくことができます。（中学生も可能です）",
+ description:"お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location:"3階",
  time:"9:00～14:30"
 },
@@ -443,7 +443,7 @@ const floor3Places = [
  width: 140,
  height: 60,
  detail:true,
- description:"飲食や休憩をしていただくことができます。（中学生も可能です）",
+ description:"お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location:"3階",
  time:"9:00～14:30"
 },
@@ -471,7 +471,7 @@ const floor3Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "人形「エリーちゃん」が封印されたC棟3階の教室。「エリーちゃん遊ぼ」と言わないこと、決して振り向かないこと。掟を破ったあなたを待つものとは……？",
+ description: "人形「エリーちゃん」が封印されたC棟3階の教室。「エリーちゃん遊ぼ」と言わないこと、決して振り向かないこと。掟を破ったあなたを待つものとは……？ぜひお楽しみください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -482,7 +482,7 @@ const floor3Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "舞台は空港のターミナル。違和感を探し、制限時間内にどこまでターミナルを進むことができるのか。ぜひ挑戦してみてください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -493,7 +493,7 @@ const floor3Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "動物になりきって、謎解きしながら動物園の檻から脱出するゲームです。ぜひチャレンジしてみてください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -504,7 +504,7 @@ const floor3Places = [
  height: 60 ,
  image:"images/",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "海のような空間で、個性豊かな魚や人間を釣ることができます。ぜひお楽しみください。",
  location: "3階",
  time: "9:00〜14:30"
 },
