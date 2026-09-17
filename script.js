@@ -521,7 +521,7 @@ const floor3Places = [
  height: 60,
  image:"images/④１A.jpg",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -541,7 +541,7 @@ const floor3Places = [
  y: 2322,
  width: 280,
  height: 65,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
@@ -556,7 +556,7 @@ const floor3Places = [
  detail: true,
  description: "吹奏楽部・ハンドベル部・合唱部による公演をはじめ、有志によるステージや文化祭実行委員企画も開催しております。ぜひお楽しみください。",
  location: "3階",
- time: "9:00〜14:30"
+ time: "9:15〜15:05"
 },
 { name: "中1D",
  x: 824,
@@ -775,7 +775,7 @@ const floor4Places = [
  y: 2552,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "部活動壁新聞の展示をしています。",
  location: "2階",
@@ -786,7 +786,6 @@ const floor4Places = [
  y: 2552,
  width: 140,
  height: 60,
-  
  detail: true,
  description: "PTAの方の控室です。",
  location: "3階",
@@ -827,7 +826,7 @@ const floor4Places = [
  y: 1974,
  width: 200,
  height: 65,
-  
+ image:"images/",
  detail: true,
  description: "美術？よくわからん後で確認",
  location: "4階",
@@ -838,7 +837,7 @@ const floor4Places = [
  y: 2116,
  width: 160, 
  height: 65,
-  
+ image:"images/",
  detail: true,
  description: "卒論等展示あるかも、後で確認",
  location: "4階",
@@ -871,7 +870,7 @@ const basementPlaces = [
  y: 1636,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "地下階",
@@ -882,7 +881,7 @@ const basementPlaces = [
  y: 1819,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "地下階",
@@ -893,7 +892,7 @@ const basementPlaces = [
  y: 2004,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "地下階",
@@ -904,7 +903,7 @@ const basementPlaces = [
  y: 2363,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "2階",
@@ -921,7 +920,7 @@ const basementPlaces = [
  y: 1441,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "地下階",
@@ -932,7 +931,7 @@ const basementPlaces = [
  y: 1626,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "地下階",
@@ -943,7 +942,7 @@ const basementPlaces = [
  y: 1818,
  width: 140,
  height: 60,
-  
+ image:"images/",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "地下階",
