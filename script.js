@@ -653,7 +653,6 @@ const floor3Places = [
  y: 2578,
  width: 200,
  height: 65,
- image:"images/",
  detail: true,
  description: "家庭科部によるUVレジン体験を行っております。ぜひお越しください。",
  location: "3階",
