@@ -26,7 +26,7 @@ const floor1Places = [
  height: 65,
  image: "images/",
  detail: true,
- description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品を販売しております。",
+ description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品をいつでもお買い求めいただけるよう取り揃えております。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -37,7 +37,7 @@ const floor1Places = [
  height: 65,
  image:"images/",
  detail: true,
- description: "食事や休憩をしていただくことができます。",
+ description: "お食事や休憩にご利用いただけるほか、パンなどの軽食も販売しております。ぜひお気軽にお立ち寄りください。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -47,7 +47,7 @@ const floor1Places = [
  width: 160,
  height: 65,
  detail: true,
- description: "同窓会主催の模擬店で､食品の販売を行っております。(フランクフルト・綿菓子・スモア等)",
+ description: "同窓会主催の模擬店にて、フランクフルト・綿菓子・スモアなどを販売しております。ぜひお楽しみください。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -57,7 +57,7 @@ const floor1Places = [
  width: 160,
  height: 65,
  detail: true,
- description: "献血を行っております。お気軽にお立ち寄りください。",
+ description: "献血を行っております。皆さまのご協力をお願いいたします。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -66,9 +66,8 @@ const floor1Places = [
  y: 968,
  width: 160,
  height: 65,
- 
  detail: true,
- description: "同窓会本部です。食品の販売を行っております。",
+ description: "同窓会本部では、食品の販売を行っております。ぜひお立ち寄りください。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -108,7 +107,7 @@ const floor1Places = [
  width: 160,
  height: 65,
  detail: true,
- description: "養護教諭が常駐しております。"
+ description: "養護教諭が常駐しております。体調が優れない際などにご利用ください。"
 },
 { name: "高1G 角谷ずキッチン", 
  x: 1964,
@@ -117,7 +116,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "テントにてホットケーキ・ワッフル・カステラの販売を行っております。（高1G教室はイートインとなっており、販売は行っておりません。）",
+ description: "テントにて、ホットケーキ・ワッフル・カステラなど、甘くておいしいスイーツを販売しております。※高1G教室はイートインスペースとなっており、販売はしておりません。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -128,7 +127,7 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "キャベツとチキンをトルティーヤで包んだケバブサンドを販売しております。（高2I教室での販売は行っておりません。）",
+ description: "キャベツとジューシーなチキンをトルティーヤで包んだ、食べ応え抜群のケバブサンドを販売しております。※高2I教室では販売しておりません。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -139,7 +138,7 @@ const floor1Places = [
  height: 90,
  image:"images/",
  detail: true,
- description: "合唱部・ハンドベル部・演劇部・書道部・ダンス部・吹奏楽部の公演のほか、有志によるステージや特別企画も開催しております。",
+ description: "合唱部・ハンドベル部・演劇部・書道部・ダンス部・吹奏楽部による公演をはじめ、有志によるステージや特別企画も開催しております。ぜひお楽しみください。",
  location: "1階",
  time: "9:00〜17:30"
 },
@@ -174,9 +173,9 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "宇宙をテーマにした本格的な迷路や謎解きのほか、映えるフォトスポットも用意しております。",
+ description: "宇宙をテーマにした本格的な迷路や謎解き、写真映えするフォトスポットをご用意しております。ぜひお楽しみください。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "高2H 巨大すごろく", 
  x: 2323,
@@ -185,9 +184,9 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "巨大なすごろく形式の人生ゲームを開催しております。",
+ description: "巨大なすごろく形式の人生ゲームを開催しております。ぜひ挑戦して、ゴールを目指してください。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "高2G ばれずに宿題チャレンジ",
  x: 2321,
@@ -196,18 +195,17 @@ const floor1Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "スリル満点な授業中の内職体験を開催しております。",
+ description: "授業中の「内職」をテーマにした、スリル満点の体験企画を開催しております。ぜひ挑戦してみてください。",
  location: "1階",
- time: "8:30〜17:00"
+ time: "9:00〜14:30"
 },
 { name: "同窓会企画 盲導犬イベント",
  x: 1167,
  y: 2589,
  width: 220,
  height: 65,
- 
  detail: true,
- description: "同窓会主催の盲導犬の役割や視覚障がいについて学ぶことができるイベントを開催しております。",
+ description: "同窓会主催！盲導犬の役割や視覚障がいについて楽しく学べるイベントを開催しております。ぜひお立ち寄りください。",
  location: "1階",
  time: "8:30〜17:00"
 },
@@ -258,7 +256,7 @@ const floor2Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "スーパーボールすくい・恋御籤（こいみくじ）・射的・輪投げなどの縁日を開催しております。",
+ description: "スーパーボールすくい・恋御籤（こいみくじ）・射的・輪投げなど、さまざまな縁日をお楽しみいただけます。ぜひお立ち寄りください。",
  location: "2階",
  time: "9:00〜14:30"
 },
@@ -269,7 +267,7 @@ const floor2Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "ボールを蹴ってターゲットを狙い、得点を競うゲームを開催しております。",
+ description: "ボールを蹴ってターゲットを狙い、得点を競うゲームです。高得点を目指して、ぜひ挑戦してみてください。",
  location: "2階",
  time: "9:00〜14:30"
 },
@@ -297,18 +295,18 @@ const floor2Places = [
  height: 60,
  image:"images/",
  detail: true,
- description: "人が乗った台車を押して、どこまで進めるかの距離を競うゲームを開催しています。",
+ description: "人が乗った台車を押して、進んだ距離を競うゲームです。どこまで進めるか、ぜひ挑戦してみてください。",
  location: "2階",
  time: "9:00〜14:30"
 },
-{ name: "高1I 角には気をつけろ~この先自己責任~",
+{ name: "高1I 角には気をつけろ ~この先自己責任~",
  x: 1674,
  y: 2333,
  width: 140,
  height: 60,
  image:"images/",
  detail: true,
- description: "怖いものへの耐性を試すことができる企画を開催しております。",
+ description: "恐怖に挑戦できるスリル満点の企画を開催しております。怖いものが苦手な方もぜひ挑戦してみてください。",
  location: "2階",
  time: "9:00〜14:30"
 },
@@ -319,7 +317,7 @@ const floor2Places = [
  height: 60,
  image:"images/",
  detail:true,
- description:"氷の冷たさと鮮やかなシロップの甘さが広がる、定番のかき氷！暑さを吹き飛ばすひんやりスイーツで、夏の涼をお楽しみください。",
+ description:"氷の冷たさと鮮やかなシロップの甘さが広がる、定番のかき氷です。暑さを吹き飛ばすひんやりスイーツで、夏の涼をお楽しみください。",
  location:"2階",
  time:"9:00～14:30"
 },
