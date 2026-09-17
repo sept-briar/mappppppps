@@ -24,7 +24,7 @@ const floor1Places = [
  y: 905,
  width: 220,
  height: 65,
- image: "images/Seikyocampus.png.jpg",
+ image: "images/seikyocampus.png.jpg",
  detail: true,
  description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品をいつでもお買い求めいただけるよう取り揃えております。",
  location: "1階",
