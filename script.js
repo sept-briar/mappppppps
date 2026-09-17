@@ -519,7 +519,7 @@ const floor3Places = [
  y: 2030,
  width: 140, 
  height: 60,
-
+ image:"images/④１A.jpg",
  detail: true,
  description: "ここに詳しい説明を書く",
  location: "3階",
@@ -530,7 +530,7 @@ const floor3Places = [
  y: 2032, 
  width: 140,
  height: 60,
- image:"images/④１A.jpg",
+ image:"images/IMG_6224.jpeg",
  detail: true,
  description: "お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location: "3階",
