@@ -532,7 +532,7 @@ const floor3Places = [
  height: 60,
  image:"images/➃１A.jpg",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -580,9 +580,9 @@ const floor3Places = [
  y: 2582, 
  width: 140, 
  height: 60,
-  
+ image:"images/➃",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -593,7 +593,7 @@ const floor3Places = [
  height: 60,
  image:"images/➃",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -602,9 +602,9 @@ const floor3Places = [
  y: 2582,
  width: 140,
  height: 60,
-  
+ image:"images/7Q2A2026.JPG",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -613,9 +613,9 @@ const floor3Places = [
  y: 2580, 
  width: 140,
  height: 60,
-  
+ image:"images/➈2B.JPG",
  detail: true,
- description: "ここに詳しい説明を書く",
+ description: "社会科の調べ学習、国語科",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -623,7 +623,12 @@ const floor3Places = [
  x: 1716,
  y: 2578,
  width: 200,
- height: 65
+ height: 65,
+ image:"images/",
+ detail: true,
+ description: "社会科の調べ学習、国語科",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "国語科準備室",
  x: 2023,
