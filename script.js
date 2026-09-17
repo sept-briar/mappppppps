@@ -28,18 +28,18 @@ const floor1Places = [
  detail: true,
  description: "文房具の他、制服・体操服・制靴・上靴・体育館シューズなどの学校指定物品をいつでもお買い求めいただけるよう取り揃えております。お気軽にお立ち寄りください。",
  location: "1階",
- time: "1日目 9:00〜17:00　2日目 9:00～15:30"
+ time: "18日 9:00〜17:00　19日 9:00～15:30"
 },
 { name: "食堂",
  x: 994,
  y: 1025,
  width: 160,
  height: 65,
- image:"images/",
+ image:"images/facility_img15.jpg",
  detail: true,
  description: "お食事や休憩にご利用いただけるほか、パンなどの軽食も販売しております。ぜひお気軽にお立ち寄りください。",
  location: "1階",
- time: "9:00〜14:30"
+ time: "11:00〜14:00"
 },
 { name: "同窓会 模擬店",
  x: 1177,
@@ -116,7 +116,7 @@ const floor1Places = [
  height: 60,
  image:"images/1-G.png",
  detail: true,
- description: "テントにて、ホットケーキ・ワッフル・カステラなど、甘くておいしいスイーツを販売しております。※高1G教室はイートインスペースとなっており、販売はしておりません。",
+ description: "テントにて、いろんな味付けのできるホットケーキ・ワッフル・カステラなど、甘くておいしいスイーツを販売しております。ぜひお楽しみください。※高1G教室はイートインスペースとなっており、販売はしておりません。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -127,7 +127,7 @@ const floor1Places = [
  height: 60,
  image:"images/2-I.png",
  detail: true,
- description: "キャベツとジューシーなチキンをトルティーヤで包んだ、食べ応え抜群のケバブサンドを販売しております。※高2I教室では販売しておりません。",
+ description: "テントにて、キャベツとジューシーなチキンをトルティーヤで包んだ、食べ応え抜群のケバブサンドを販売しております。ぜひお楽しみください。※高2I教室では販売しておりません。",
  location: "1階",
  time: "9:00〜14:30"
 },
@@ -553,7 +553,7 @@ const floor3Places = [
  y: 2214,
  width: 160,
  height: 65,
- image:"images/",
+ image:"images/facility_img01.jpg",
  detail: true,
  description: "吹奏楽部・ハンドベル部・合唱部による公演をはじめ、有志によるステージや文化祭実行委員企画も開催しております。ぜひお楽しみください。",
  location: "3階",
