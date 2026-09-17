@@ -131,7 +131,7 @@ const floor1Places = [
  location: "1階",
  time: "9:00〜14:30"
 },
-{ name: "第1体育館 ステージイベント",
+{ name: "第1体育館",
  x: 1235,
  y: 2845,
  width: 500,
@@ -485,7 +485,7 @@ const floor3Places = [
  detail: true,
  description: "舞台は空港のターミナル。違和感を探し、制限時間内にどこまでターミナルを進むことができるのか。ぜひ挑戦してみてください。",
  location: "3階",
- time: "9:00〜14:30"
+ time: "9:00〜14:30""
 },
 { name: "高1C",
  x: 1898, 
@@ -505,7 +505,7 @@ const floor3Places = [
  height: 60 ,
  image:"images/1-D.png",
  detail: true,
- description: "海のような空間で、個性豊かな魚や人間を釣ることができます。ぜひお楽しみください。",
+ description: "海のようなきれいな空間で、個性豊かな魚や人間を釣ることができます。ぜひお楽しみください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -542,9 +542,9 @@ const floor3Places = [
  y: 2322,
  width: 280,
  height: 65,
- image:"images/",
+ image:"images/facility_img03.jpg",
  detail: true,
- description: "ここに詳しい説明を書く",
+ descripti"ネイティブ教師",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -616,7 +616,7 @@ const floor3Places = [
  height: 60,
  image:"images/⑨2B.JPG",
  detail: true,
- description: "社会科の調べ学習、国語科の",
+ description: "社会科の調べ学習、国語科の俳句、理科の植物・海藻標本等を展示しています。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -627,7 +627,7 @@ const floor3Places = [
  height: 65,
  image:"images/",
  detail: true,
- description: "社会科の調べ学習、国語科",
+ description: "家庭科部によるUVレジン体験を行っております。ぜひお越しください。",
  location: "3階",
  time: "9:00〜14:30"
 },
@@ -711,7 +711,11 @@ const floor4Places = [
  x: 2155,
  y: 1801, 
  width: 240,
- height: 65
+ height: 65,
+ detail: true,
+ description: "聖書研究会ゴスペル部や有志の生徒による公演も開催しております。ぜひお楽しみください。",
+ location: "4階",
+ time: "10:20〜12:40"
 },
 { name: "高3E",
  x: 1891,
