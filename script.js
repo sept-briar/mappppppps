@@ -459,7 +459,7 @@ const floor3Places = [
  description: "家庭科部によるUVレジン体験を行っております。ぜひお越しください。",
  location: "3階",
  time: "9:00〜14:30"
- }
+},
 { name: "アトリエ",
  x: 1447,
  y: 1427,
