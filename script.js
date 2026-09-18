@@ -83,6 +83,12 @@ const floor1Places = [
  width: 220,
  height: 65
 },
+{ name: "守衛室",
+ x: 2174,
+ y: 2800,
+ width: 160,
+ height: 65
+},
 { name: "進路部室",
  x: 1738,
  y: 1795,
