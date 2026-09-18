@@ -604,7 +604,7 @@ const floor3Places = [
  y: 2582,
  width: 140,
  height: 60,
- image:"images/792A5980.JPG",
+ image:"images/7Q2A5980.JPG",
  detail: true,
  description: "テーマに沿って書いた英作文や、英語スピーチコンテスト出場者による寄せ書き等を展示しております。",
  location: "3階",
