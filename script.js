@@ -450,13 +450,13 @@ const floor3Places = [
  width: 180,
  height: 65
 },
-{ name: "中学講座室",
- x: 1716,
- y: 2578,
- width: 200,
+{ name: "美術作品展示",
+ x: 1175,
+ y: 1308,
+ width: 160,
  height: 65,
  detail: true,
- description: "家庭科部によるUVレジン体験を行っております。ぜひお越しください。",
+ description: "高校美術部・高校美術選択生徒の作品が展示されています。",
  location: "3階",
  time: "9:00〜14:30"
 },
