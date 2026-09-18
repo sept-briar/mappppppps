@@ -455,8 +455,9 @@ const floor3Places = [
  y: 1308,
  width: 160,
  height: 65,
+ image:"images/美術部１.png",
  detail: true,
- description: "高校美術部・高校美術選択生徒の作品が展示されています。",
+ description: "高校美術部・高校美術選択生徒の作品を展示しております。",
  location: "3階",
  time: "9:00〜14:30"
 },
