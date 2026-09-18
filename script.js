@@ -658,7 +658,6 @@ const floor3Places = [
  y: 2580, 
  width: 140,
  height: 60,
- image:"images/⑨2B.jpg",
  detail: true,
  description: "社会科の調べ学習、国語科の俳句、理科の植物・海藻標本等を展示しています。",
  location: "3階",
