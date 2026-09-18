@@ -803,12 +803,7 @@ const floor4Places = [
  x: 2368, 
  y: 2555,
  width: 140, 
- height: 60,
- image:"images/police.jpeg",
- detail: true,
- description: "ドラマで見るような指紋採取や、犯人を逮捕する際の術、モンタージュという犯人のおおよその顔を特定するという体験を実施しています。ぜひお越しください。",
- location: "4階",
- time: "19日 10:00〜12:30"
+ height: 60
 },
 { name: "高3J",
  x: 2254, 
