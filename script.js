@@ -648,7 +648,6 @@ const floor3Places = [
  y: 2582,
  width: 140,
  height: 60,
- image:"images/7Q2A6026.JPG",
  detail: true,
  description: "技術科で制作したフォトフレームや、家庭科で制作した聖書・讃美歌カバー等を展示しております。ぜひお楽しみください。",
  location: "3階",
