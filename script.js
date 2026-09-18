@@ -224,7 +224,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会主催の盲導犬の役割や視覚障がいについて楽しく学べるイベントを開催しております。ぜひお立ち寄りください。",
  location: "1階",
- time: "19日 9:00〜14:30"
+ time: "9:00〜14:30"
 },
 { name: "第2体育館",
  x: 595,
@@ -328,7 +328,7 @@ const floor2Places = [
  location: "2階",
  time: "9:00〜14:30"
 },
-{ name: "高1I 角には気をつけろ ~この先自己責任~",
+{ name: "高1I 角には気をつけろ ～この先自己責任～",
  x: 1674,
  y: 2333,
  width: 140,
@@ -919,13 +919,18 @@ const floor4Places = [
  detail: true,
  description: "蔵書数8万冊を突破している図書館です。ぜひご利用ください。",
  location: "4階",
- time: "18日 9:00～18:00　19日 9:00～15:00"
+ time: "9:00～15:00"
 },
 { name: "スタディホール",
  x: 1508,
  y: 2232,
  width: 220,
- height: 65
+ height: 65,
+ image:"images/facility_img11.jpg",
+ detail: true,
+ description: "中学3年生の卒業論文をはじめとした、「賜物を生かす」という清教学園ならではのカリキュラムの中で生徒の知的探求心が生んだ作品の数々を展示しております。",
+ location: "4階",
+ time: "9:00～15:00"
 }
 
 ];
