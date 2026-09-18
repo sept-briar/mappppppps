@@ -49,7 +49,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会主催の模擬店にて、フランクフルト・綿菓子・スモアなどを販売しております。ぜひお楽しみください。",
  location: "1階",
- time: "19日 9:00〜14:30"
+ time: "9:00〜14:30"
 },
 {name: "献血",
  x: 1409,
@@ -59,7 +59,7 @@ const floor1Places = [
  detail: true,
  description: "献血を行っております。皆さまのご協力をお願いいたします。",
  location: "1階",
- time: "19日 9:00〜14:30"
+ time: "9:00〜14:30"
 },
 { name: "同窓会本部 食品物販",
  x: 1432,
@@ -69,7 +69,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会本部では、食品の販売を行っております。ぜひお立ち寄りください。",
  location: "1階",
- time: "19日 9:00〜14:30"
+ time: "9:00〜14:30"
 },
 { name: "国際交流委員会",
  x: 1317,
@@ -157,7 +157,7 @@ const floor1Places = [
  detail: true,
  description: "合唱部・ハンドベル部・演劇部・書道部・ダンス部・吹奏楽部による公演をはじめ、有志によるステージや特別企画も開催しております。ぜひお楽しみください。",
  location: "1階",
- time: "9:00〜17:30"
+ time: "9:00〜14:15"
 },
 { name: "第2体育館",
  x: 602,
@@ -224,7 +224,7 @@ const floor1Places = [
  detail: true,
  description: "同窓会主催の盲導犬の役割や視覚障がいについて楽しく学べるイベントを開催しております。ぜひお立ち寄りください。",
  location: "1階",
- time: "19日 8:30〜17:00"
+ time: "19日 9:00〜14:30"
 },
 { name: "第2体育館",
  x: 595,
@@ -506,7 +506,7 @@ const floor3Places = [
  location: "3階",
  time: "9:00〜14:30"
 },
-{ name: "高1B", 
+{ name: "高1B 1-B出口", 
  x: 1897, 
  y: 2146, 
  width: 140, 
@@ -517,7 +517,7 @@ const floor3Places = [
  location: "3階",
  time: "9:00〜14:30"
 },
-{ name: "高1C",
+{ name: "高1C パニックZoo～謎を解いて檻から脱出せよ～",
  x: 1898, 
  y: 2281,
  width: 140,
@@ -528,7 +528,7 @@ const floor3Places = [
  location: "3階",
  time: "9:00〜14:30"
 },
-{ name: "高1D",
+{ name: "高1D 1Dフィッシングwithナカジ丸・キムラ渡船",
  x: 1897,
  y: 2413,
  width: 140,
