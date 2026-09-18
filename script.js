@@ -450,6 +450,16 @@ const floor3Places = [
  width: 180,
  height: 65
 },
+{ name: "中学講座室",
+ x: 1716,
+ y: 2578,
+ width: 200,
+ height: 65,
+ detail: true,
+ description: "家庭科部によるUVレジン体験を行っております。ぜひお越しください。",
+ location: "3階",
+ time: "9:00〜14:30"
+ }
 { name: "アトリエ",
  x: 1447,
  y: 1427,
@@ -794,10 +804,6 @@ const floor4Places = [
  y: 2377, 
  width: 140,
  height: 60,
- detail: true,
- description: "お食事や休憩にご利用いただけます。来校者の方はもちろん、中学生もご利用いただけますので、ぜひお立ち寄りください。",
- location: "4階",
- time: "9:00〜14:30"
 },
 { name: "高3K",
  x: 2368, 
@@ -917,7 +923,7 @@ const floor4Places = [
  height: 65,
  image:"images/facility_img11.jpg",
  detail: true,
- description: "蔵書数8万冊を突破している図書館です。ぜひご利用ください。",
+ description: "蔵書数8万冊を突破しており、様々な賞を受賞していて全国から注目を浴びている図書館です。ぜひご利用ください。",
  location: "4階",
  time: "9:00～15:00"
 },
