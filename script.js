@@ -458,7 +458,11 @@ const floor3Places = [
  x: 1350,
  y: 1327,
  width: 180,
- height: 65
+ height: 65,
+ detail: true,
+ description: "美術作品を展示しております。",
+ location: "3階",
+ time: "9:00〜14:30"
 },
 { name: "美術作品展示",
  x: 1175,
