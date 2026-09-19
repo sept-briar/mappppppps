@@ -354,7 +354,7 @@ const floor2Places = [
  y: 2510,
  width: 140,
  height: 60,
- image:"images/1-G~2.jpg",
+ image:"images/1-J.jpg",
  detail:true,
  description:"氷の冷たさと鮮やかなシロップの甘さが広がる、定番のかき氷を販売しております。暑さを吹き飛ばすひんやりスイーツで、夏の涼をお楽しみください。",
  location:"2階",
